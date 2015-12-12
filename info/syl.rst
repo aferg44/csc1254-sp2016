@@ -1,9 +1,10 @@
-        CSC 1254 Sec. 1: Computer Science with C++, Spring 2015
+CSC 1254 Sec. 1: Computer Science with C++, Spring 2016
+=======================================================
 
 **Introduction**. Welcome to Computer Science with C++ II! In this course, you
 will learn about more advanced topics in programming: object-oriented
 programming, linked lists, stacks, queues, trees, sorting, and efficiency.
-
+.. raw::
            Name        Castleberry, Dennis
            Office      2019 Louisiana Digital Media Center
            Hours       MWF: 10:00-4:00, by appt.
@@ -52,12 +53,11 @@ where appropriate.
 
 **Note**.  This class is challenging, and difficulty spikes during and after
 each test. There will be no curves; all points are earned, and every point
-counts.  If your final grade is one point away from a category, it will stay.
-You are allowed seven days to contest a grade earned (from the date it was
-entered).
+counts.  If your final grade is one point away from a higher grade category, it
+will stay.  You are allowed seven days to contest a grade earned (from the date
+it was entered).
 
-This class can also be fun. Most important is to maintain a positive attitude,
-embrace challenges, and make good decisions (turn in homework ahead of time,
-study ahead of time, practice regularly, and overestimate the difficulty). If
-you earn a passing grade, you will deserve it; and it will reflect in your
-logical reasoning and programming abilities.
+This class can also be fun. Maintain a positive attitude, embrace challenges,
+and make good decisions (turn in homework ahead of time, study ahead of time,
+practice regularly, and overestimate the difficulty). If you succeed in this
+course , it will reflect in your logical reasoning and programming abilities.
