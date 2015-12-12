@@ -1,9 +1,9 @@
-CSC 1254 Sec. 1: Computer Science with C++, Spring 2015
-=======================================================
+Syllabus for CSC 1254 Sec. 1 (Computer Science with C++ II) Spring 2016
+=======================================================================
 
 **Introduction**. Welcome to Computer Science with C++ II! In this course, you
-will learn about more advanced topics in programming: object-oriented
-programming, linked lists, stacks, queues, trees, sorting, and efficiency.
+will learn about advanced topics in programming. See the calendar for details.
+
 .. raw::
            Name        Castleberry, Dennis
            Office      2019 Louisiana Digital Media Center
@@ -13,7 +13,7 @@ programming, linked lists, stacks, queues, trees, sorting, and efficiency.
        
            Tests       (4 x 128 points)  ...  512 points
            Homeworks   (7 x  64 points)  ...  448 points
-           Pre-Test    (1 x  64 points)  ...   64 points
+           Test 0      (1 x  64 points)  ...   64 points
            Total                         ... 1024 points
 
 **Textbook**.  The textbook is recommended, but not required. It is available
@@ -25,7 +25,7 @@ see them.
 **Availability**.  Please make an appointment with me to be sure I’ll be in the
 office. I answer e-mail during the weekdays, but not weekends. Note that your
 homework is due on 6:00 PM on Sundays, so you’ll need to plan ahead if you want
-help with it.
+help with it. My most frequent visitors tend to be good students!
 
 **Homework**.  Homework is completed on the classes.csc.lsu.edu server and
 submitted via the p_copy program. You will normally be given a choice of
@@ -51,13 +51,13 @@ homework, employing tricks during a test), the incident will be processed.  If
 you are receiving help from another student, be sure to credit that student
 where appropriate.
 
-**Note**.  This class is challenging, and difficulty spikes during and after
-each test. There will be no curves; all points are earned, and every point
-counts.  If your final grade is one point away from a higher grade category, it
-will stay.  You are allowed seven days to contest a grade earned (from the date
-it was entered).
+**Words to the wise**.  This class is challenging, and difficulty spikes during
+and after each test. There will be no curves; all points are earned, and every
+point counts.  If your final grade is one point away from a higher grade
+category, it will stay.  You are allowed seven days to contest a grade earned
+(from the date it was entered).
 
 This class can also be fun. Maintain a positive attitude, embrace challenges,
 and make good decisions (turn in homework ahead of time, study ahead of time,
 practice regularly, and overestimate the difficulty). If you succeed in this
-course , it will reflect in your logical reasoning and programming abilities.
+course, it will reflect in your logical reasoning and programming abilities.

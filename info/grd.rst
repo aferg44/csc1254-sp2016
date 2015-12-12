@@ -1,5 +1,5 @@
-General
-=======
+General Grading Policy
+======================
 
 Problems may be itemized (broken into parts).  Each coding item counts for no,
 half, or full credit.  If an item is not a coding item (e.g. short answer),
@@ -30,7 +30,7 @@ this case the constraint is applied to each problem. Such constraints will be
 stated at the beginning of an assignment specification.
 
 Homework
-========
+--------
 
 Each problem is awarded full credit, half credit, or no credit. A solution code
 earns **no credit** if: the code does not compile, the code is submitted past
@@ -49,7 +49,7 @@ processed with Student Advocacy & Accountability.
 If you are in doubt what a solution code would earn, you are free to ask.
 
 Worksheets and Tests
-====================
+--------------------
 
 A solution code earns **full credit** if it is both syntactically and logically
 correct, **half credit** if it is either syntactically or logically correct,
@@ -60,3 +60,4 @@ syntactically correct but not substantive, it earns no credit. Thus an
 otherwise correct code with a missing semicolon (syntax error) as well as an
 otherwise correct code with an off-by-one error (logic error) both earn
 half-credit.
+

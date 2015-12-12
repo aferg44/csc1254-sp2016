@@ -1,13 +1,18 @@
-           CSC 1254: Computer Science with C++ II, Spring 2016
+Calendar for CSC 1254, Sec. 1 (Computer Science with C++ II) Spring 2016
+========================================================================
+
+The following is a tentative calendar. The course is divided into four parts,
+delineated by tests: Software Engineering, Object-Oriented Programming,
+Advanced Data Types, and Algorithmics.
 
 +---------------+---------------------------+---------------------------------+
 |     Week      |  Tuesday                  | Thursday                        |
 |   (Sunday)    |                           |                                 |
 +---------------+---------------------------+---------------------------------+
-| 01/10         |                           | Linux/SSH/Vim                   |
+| 01/10         |                           | Linux, SSH, Git, and vim        |
 |               |                           |                                 |
 +---------------+---------------------------+---------------------------------+
-| 01/17         | Code Analysis             | **Entrance Exam**               |
+| 01/17         | Code Analysis             | **Test 0**                      |
 |   ^prog20     |                           |                                 |
 +---------------+---------------------------+---------------------------------+
 | 01/24         | Input and Verification    | Libraries                       |
@@ -53,3 +58,6 @@
 |   ^prog27     |                           |                                 |
 +---------------+---------------------------+---------------------------------+
 ^ = due at 6:00 PM that day
+
+
+
