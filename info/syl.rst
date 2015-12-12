@@ -1,4 +1,4 @@
-CSC 1254 Sec. 1: Computer Science with C++, Spring 2016
+CSC 1254 Sec. 1: Computer Science with C++, Spring 2015
 =======================================================
 
 **Introduction**. Welcome to Computer Science with C++ II! In this course, you
