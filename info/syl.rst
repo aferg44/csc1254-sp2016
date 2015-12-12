@@ -3,7 +3,6 @@ Syllabus for CSC 1254 Sec. 1 (Computer Science with C++ II) Spring 2016
 
 **Introduction**. Welcome to Computer Science with C++ II! In this course, you
 will learn about advanced topics in programming. See the calendar for details.
-
 .. raw::
            Name        Castleberry, Dennis
            Office      2019 Louisiana Digital Media Center
@@ -61,3 +60,4 @@ This class can also be fun. Maintain a positive attitude, embrace challenges,
 and make good decisions (turn in homework ahead of time, study ahead of time,
 practice regularly, and overestimate the difficulty). If you succeed in this
 course, it will reflect in your logical reasoning and programming abilities.
+

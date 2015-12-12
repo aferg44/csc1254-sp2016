@@ -1,0 +1,54 @@
+=======================
+Extra Credit Homework 1
+=======================
+
+Select up to +8 points of problems from the following. You may answer more than
++8, but only +8 worth will be counted.
+
+1. Log in.
+     [+1] Log onto the classes.csc.lsu.edu server. Simply logging in is enough
+     to earn the point.
+
+2. Vim.
+     [+1] Use the vim editor to write your programs for this assignment. Use
+     only vim; to earn the point, you must never invoke nano.
+
+3. Hello, world!
+     [+1] Write a Hello, world! program. Call this ``hello.cpp``.  Include a 
+     courtesy newline.  It must be totally correct to earn the point.
+
+4. ASCII drawing.
+     [+1] Write a program to draw some ASCII art to the screen. Your art should
+     be at least 8 rows x 8 columns.  An example (written by someone else)
+     is given below. Yours must be original. Call it ``drawing.cpp``.
+     .. raw::
+                          ( \
+                           \ \
+                           / /                |||
+                          / /     .-`````-.   / ^`-.
+                          \ \    /         \_/  {|} 'o
+                           \ \  /   .---.   \\ _  ,--'
+                            \ \/   /     \,  \( ^^^^
+                             \   \/\      (\  )
+                              \   ) \     ) \ \
+                          jgs  ) /__ \__  ) (\ \___
+                              (___)))__))(__))(__)))
+
+5. Sum.
+     [+2] Write a program with function ``int sum(int n)`` to calculate the sum
+     of numbers from 1 to n inclusive and return it.  Have your ``main``
+     function print out the sum.  Test it on n=10.  Make the entire code file 
+     be <=10 lines long. Call the source file ``sum.cpp``.
+
+6. Reverse.
+     [+2] Write a program with function ``std::string reverse(string s)`` to 
+     return the reverse of the string s. It should not use library functions
+     (except size()).  Have your ``main`` function print the reverse. Test
+     it on the string 'marjoram'. Make the whole code file <=10 lines long.
+     Call the source file ``reverse.cpp``.
+
+7. Digits.
+     [+4] Write a program with function ``int digits(int n)`` to return the 
+     number of digits in n. For example, 2357 has 4 digits.  Have your 
+     ``main`` function print the result of a call to ``digits``.  Test 
+     with n=2357. Call the source file ``digits.cpp``.
