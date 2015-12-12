@@ -1,45 +1,58 @@
+=================
+Credit Homework 1
+=================
+
 Select up to 64 points worth of problems.  You may earn +N extra credit points
 if you submit the assignment N<=8 days in advance of the due date.
 
 
-1. [16] Write a program which writes a program which prints Hello, world! to
+1. [16] Hello writer.
+        Write a program which writes a program which prints Hello, world! to
         the screen. Call the source file ``hello-writer.cpp``, and the 
         generated file ``hello.cpp``. Ensure that the both files compile and 
         run.
 
-2. [16] Write a program to print a color drawing to the screen.  Use the 
+2. [16] Color drawing.
+        Write a program to print a color drawing to the screen.  Use the 
         provided ``color.h`` and refer to ``color.cpp`` for example.  The 
         drawing should be 8 rows x 8 cols and use at least three colors.  
         Call this ``color-drawing.cpp``.
 
-3. [16] Write a program to read in a filename via stdin and type out the text
+3. [16] File typeout.
+        Write a program to read in a filename via stdin and type out the text
         in the file at 30Hz to stdout. Use the file ``typeout.cpp`` for 
         reference.  Call this ``file-typeout.cpp``.
 
-4. [16] Write a program to tell the time in mm/dd/yy hh::mm::ss format; it 
+4. [16] Clock.
+        Write a program to tell the time in mm/dd/yy hh::mm::ss format; it 
         refresh every second, clearing the screen and displaying at the 
         bottom of the screen.  Refer to the ``ctime.cpp`` code.  Call this
         ``clock.cpp``.
 
-5. [32] Write a program to count the number of spaces, alphanumeric characters,
+5. [32] Character count.
+        Write a program to count the number of spaces, alphanumeric characters,
         and lines in a file.  It should accept the filename via stdin, and
         print the numbers space-delimited, followed by a courtesy newline.
         Call this ``char-count.cpp``.
 
-        [16] Additional points if instead of alphanumeric characters, you count
-             alphabetic words (a string of one or more alphabetic characters). 
-             In this case call it ``word-count.cpp``.
+        a. [16] Word count.
+                Additional points if instead of alphanumeric characters, you count
+                alphabetic words (a string of one or more alphabetic characters). 
+                In this case call it ``word-count.cpp``.
 
-6. [32] Write a program to print out a user-supplied string in an ASCII font
+6. [32] ASCII art.
+        Write a program to print out a user-supplied string in an ASCII font
         of your design.  The string should print horizontally. Use the skeleton 
         ``ascii-art.cpp`` for reference, and the program ``ascii-art`` for
         example execution.
         
-        [16] Addiitional points if the output is colored such that no two 
-             consecutive letters share the same color. In this case, call it 
-             ``ascii-art-color.cpp``.
+        a. [16] Colored ASCII art.
+                Addiitional points if the output is colored such that no two 
+                consecutive letters share the same color. In this case, call it 
+               ``ascii-art-color.cpp``.
 
-7. [64] Write a program to print a colored animation to the screen.  Use the
+7. [64] ASCII animation.
+        Write a program to print a colored animation to the screen.  Use the
         provided ``color.h`` and refer to ``color.cpp`` for example.  The 
         animation should be 8 rows x 8 cols, have a framerate of 30 Hz, last
         for exactly 10 seconds, use at least three colors, be such that no two
