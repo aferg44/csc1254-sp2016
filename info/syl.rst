@@ -1,19 +1,20 @@
-        CSC 1254 Sec. 1: Computer Science with C++, Spring 2015
+CSC 1254 Sec. 1: Computer Science with C++, Spring 2015
+=======================================================
 
 **Introduction**. Welcome to Computer Science with C++ II! In this course, you
 will learn about more advanced topics in programming: object-oriented
 programming, linked lists, stacks, queues, trees, sorting, and efficiency.
 
-           Name        Castleberry, Dennis
-           Office      2019 Louisiana Digital Media Center
-           Hours       MWF: 10:00-4:00, by appt.
-           E-mail      dcastl2@tigers.lsu.edu
-           Phone       (225) 578-5912
-       
-           Tests       (4 x 128 points)  ...  512 points
-           Homeworks   (7 x  64 points)  ...  448 points
-           Pre-Test    (1 x  64 points)  ...   64 points
-           Total                         ... 1024 points
+         + Name        Castleberry, Dennis
+         + Office      2019 Louisiana Digital Media Center
+         + Hours       MWF: 10:00-4:00, by appt.
+         + E-mail      dcastl2@tigers.lsu.edu
+         + Phone       (225) 578-5912
+
+         + Tests       (4 x 128 points)  ...  512 points
+         + Homeworks   (7 x  64 points)  ...  448 points
+         + Pre-Test    (1 x  64 points)  ...   64 points
+         + Total                         ... 1024 points
 
 **Textbook**.  The textbook is recommended, but not required. It is available
 on-line for free. I recommend that you use an on-line reference, such as
@@ -56,8 +57,7 @@ counts.  If your final grade is one point away from a category, it will stay.
 You are allowed seven days to contest a grade earned (from the date it was
 entered).
 
-This class can also be fun. Most important is to maintain a positive attitude,
-embrace challenges, and make good decisions (turn in homework ahead of time,
-study ahead of time, practice regularly, and overestimate the difficulty). If
-you earn a passing grade, you will deserve it; and it will reflect in your
-logical reasoning and programming abilities.
+This class can also be fun! Maintain a positive attitude, embrace challenges,
+and make good decisions (turn in homework ahead of time, study ahead of time,
+practice regularly, and overestimate the difficulty). Succeeding in the course
+will reflect in your logical reasoning and programming abilities.

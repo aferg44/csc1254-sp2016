@@ -16,8 +16,8 @@ Thus a solution code earns either 0, 2, or 4 points. The following problem is
 itemized:
 
  [4] Write a Hello, world! program [2]. Be sure to remember to put a courtesy
-     newline [1], and make the total code <=5 lines [1]. Call the program
-     ``hello.cpp``.
+ newline [1], and make the total code <=5 lines [1]. Call the program
+ ``hello.cpp``.
 
 In the itemized problem, 2 points are awarded for a program which compiles and
 produces correct output; 1 point for the newline, and 1 point for meeting the

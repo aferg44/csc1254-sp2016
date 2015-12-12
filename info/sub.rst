@@ -1,7 +1,11 @@
-For any given assignment, where the assignment number is N (for example,
-10, 20, 11, 21, ...), create a folder called progN in your home directory,
-then place all your codes within that directory.  For example, for prog10,
-create a folder prog10 to put your codes into.
+=========================
+How to Submit Assignments
+=========================
+
+For any given assignment, where the assignment number is N (for example, 10,
+20, 11, 21, ...), create a folder called progN in your home directory, then
+place all your codes within that directory.  For example, for prog10, create a
+folder prog10 to put your codes into.
 
 Note that if you create subdirectories within prog10/, their contents will not
 be copied. Anything else placed within the prog10/ directory will be copied.
