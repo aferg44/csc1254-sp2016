@@ -18,8 +18,8 @@ will learn about advanced topics in programming. See the calendar for details.
 **Textbook**.  The textbook is recommended, but not required. It is available
 on-line for free. I recommend that you use an on-line reference, such as
 cplusplus.com. More importantly, be familiar with your favorite search engine.
-Most importantly, do your best to make sense of codes in class when you first
-see them.
+Most importantly, do your best to make sense of codes in class, ideally when 
+they are first presented to you.
 
 **Availability**.  Please make an appointment with me to be sure I’ll be in the
 office. I answer e-mail during the weekdays, but not weekends. Note that your

@@ -1,7 +1,7 @@
 Q: Why don't we take tests on the computer?
 
-A: There are a few good reasons, but the best of these is pedagogical.  With
-   access to a compiler and enough time, many students can arrive at the
+A: There are a few good reasons, but the best of these is pedagogical.  
+   With access to a compiler and enough time, many students can arrive at the
    correct solutions through trial-and-error. This doesn't mean the material is
    well-understood.  Paper is committal; it forces the programmer to evaluate
    the correctness of the approach. If you can write it on paper, you really
@@ -13,12 +13,13 @@ A: There are a few good reasons, but the best of these is pedagogical.  With
 
 Q: What is the purpose of the crayon/colored pencil exercises?
 
-A: One purpose is intellectual exercise, which is something everyone needs
-   for higher-level courses. In that regard, the point is to have the student
-   work through the logic of a problem while holding steps in working memory.
-   This expands one's capability to do so when coding in front of a computer.
-   That in turn improves design and accuracy, which in turn reduces the time
-   spent re-writing the code or debugging it. 
+A: One purpose is intellectual exercise, 
+   which is something everyone needs for higher-level courses. In that regard,
+   the point is to have the student work through the logic of a problem while
+   holding steps in working memory.  This expands one's capability to do so
+   when coding in front of a computer.  That in turn improves design and
+   accuracy, which in turn reduces the time spent re-writing the code or
+   debugging it. 
 
    Another is to enforce good software engineering practice: think before
    coding rather than after. Instead of trying all combinations of what one
@@ -32,12 +33,12 @@ A: One purpose is intellectual exercise, which is something everyone needs
 
 Q: Why no, half, or full credit?
 
-A: One purpose is to encourage due care.  A moment of caution saves hours of
-   debugging time.  A student benefits more from the experience of receiving
-   half-credit.  Upon receiving half-credit for a missing semicolon, one is
-   much less likely to miss semicolons in the future. My hope is that the
-   sense of caution this inspires will extend to other coursework, such as in
-   mathematics, or in other situations requiring thought about a procedure. 
+A: A moment of caution saves hours of debugging time.  
+   A student benefits more from the experience of receiving half-credit.  Upon
+   receiving half-credit for a missing semicolon, one is much less likely to
+   miss semicolons in the future. My hope is that the sense of caution this
+   inspires will extend to other coursework, such as in mathematics, or in
+   other situations requiring thought about a procedure. 
 
    Another is objectivity; with rules as clear-cut as these, it is hard to
    evaluate a student on anything but the correctness of the solution.  Yet
@@ -46,12 +47,12 @@ A: One purpose is to encourage due care.  A moment of caution saves hours of
 
 Q: Why don't you cover C++ concept X (or use <array>, etc.)?
 
-A: One reason is to focus on algorithmics; the programming language is a
-   vehicle for learning about data structures and algorithms. To put it
-   succinctly, I teach programming with C++ rather than C++ with programming.
-   Programming, as all students of computer science come to find, is the
-   logical thought process of generating an unambiguous procedure to solve a
-   problem. The particulars of the language are secondary to this process.
+A: To focus on algorithmics; the programming language is a vehicle 
+   for learning about data structures and algorithms. To put it succinctly, I
+   teach programming with C++ rather than C++ with programming.  Programming,
+   as all students of computer science come to find, is the logical thought
+   process of generating an unambiguous procedure to solve a problem. The
+   particulars of the language are secondary to this process.
 
    I try to teach the language in such a way that the coding is similar to
    that of other languages. Instead of delving far into the specifics of the
@@ -59,5 +60,4 @@ A: One reason is to focus on algorithmics; the programming language is a
    common to C, C#, Java, PHP, and other languages that bear similarities.
    This way if my students want to learn another language, they will already
    have a foundation in it.  Those wanting to specialize in C++ particulars
-   will be equipped to do so.
-
+   would be prepared to do so.

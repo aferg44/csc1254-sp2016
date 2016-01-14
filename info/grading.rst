@@ -2,13 +2,10 @@ General Grading Policy
 ======================
 
 Problems may be itemized (broken into parts).  Each coding item counts for no,
-half, or full credit.  If an item is not a coding item (e.g. short answer),
-then it earns either no credit or full credit. If any item is worth 1 point,
-then if the solution is totally correct, it earns 1 point, otherwise 0.  If a
-problem is not itemized, it earns no, half, or full credit. If a problem is
-itemized, the point count for each item indicated in-line in brackets following
-the item description. The total point counts for all problems are indicated
-before the problem statement. The following problem is not itemized:
+half, or full credit.  If an item is not a coding item (e.g. short answer), or
+if it is worth only 1 point, then it earns either no credit or full credit.
+The point count for each item/problem is indicated in-line in brackets
+following the item description.  The following problem is not itemized:
 
  [4] Write a Hello, world! program. Call the program ``hello.cpp``.
 
@@ -32,14 +29,14 @@ stated at the beginning of an assignment specification.
 Homework
 --------
 
-Each problem is awarded full credit, half credit, or no credit. A solution code
-earns **no credit** if: the code does not compile, the code is submitted past
-deadline, the code does not answer the question, or the file is not named
-correctly (even if off by one character).
+By default, a solution code earns **no credit** if: the code does not compile,
+the code is submitted past deadline, the code does not answer the question, or
+the file is not named correctly (even if off by one character).
 
-A solution code earns **half credit** if: the code has a logical or run-time
-error, the code is not documented, the code does not meet problem constraints,
-or the code is illegible or has inconsistent style.
+A solution code, or an item of the solution code,  earns **half credit** if:
+the code has a logical or run-time error, the code is not documented, the code
+does not meet problem constraints, or the code is illegible or has inconsistent
+style.
 
 In all other cases, the code earns **full credit**.  In the special case that a
 code is plagiarized (from on-line, a classmate, a previous student of the
@@ -60,4 +57,7 @@ syntactically correct but not substantive, it earns no credit. Thus an
 otherwise correct code with a missing semicolon (syntax error) as well as an
 otherwise correct code with an off-by-one error (logic error) both earn
 half-credit.
+
+
+
 
