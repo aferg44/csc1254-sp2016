@@ -32,7 +32,7 @@ Run PuTTY.
 3.
 ----
 
-In the Hostname box, put: classes.csc.lsu.edu 
+In the Hostname box, put: steam.cct.lsu.edu 
 In the Port box, put: 2525
 
 
