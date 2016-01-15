@@ -6,7 +6,7 @@ Select up to +8 points of problems from the following. You may answer more than
 +8, but only +8 worth will be counted.
 
 1. Log in.
-     [+1] Log onto the classes.csc.lsu.edu server. Simply logging in is enough
+     [+1] Log onto the steam.cct.lsu.edu server. Simply logging in is enough
      to earn the point.
 
 2. Vim.
