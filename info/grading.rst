@@ -34,9 +34,8 @@ the code is submitted past deadline, the code does not answer the question, or
 the file is not named correctly (even if off by one character).
 
 A solution code, or an item of the solution code,  earns **half credit** if:
-the code has a logical or run-time error, the code is not documented, the code
-does not meet problem constraints, or the code is illegible or has inconsistent
-style.
+the code has a logical or run-time error, the code does not meet problem
+constraints, or the code is illegible or has inconsistent style.
 
 In all other cases, the code earns **full credit**.  In the special case that a
 code is plagiarized (from on-line, a classmate, a previous student of the
