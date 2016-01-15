@@ -43,11 +43,11 @@ Select up to +8 points of problems from the following. You may answer more than
      of n.
 
 6. Reverse.
-     [+2] Write a program with function ``std::string reverse(string s)`` to 
+     [+2] Write a program with function ``std::string reverse(string s)`` to
      return the reverse of the string s. It should not use library functions
-     (except size()).  Have your ``main`` function print the reverse. Test
-     it on the string 'marjoram'. Make the whole code file <=10 lines long.
-     Call the source file ``reverse.cpp``.
+     (except std::string::size and std::swap).  Have your ``main`` function
+     print the reverse. Test it on the string 'marjoram'. Make the whole code
+     file <=10 lines long.  Call the source file ``reverse.cpp``.
 
 7. Digits.
      [+4] Write a program with function ``int digits(int n)`` to return the 
