@@ -51,9 +51,9 @@ if you submit the assignment N<=8 days in advance of the due date.
           executable. In this case, call it ``ascii-font-color.cpp``.
 
 7. ASCII animation.
-     [64] Write a program to print a colored animation to the screen.  Use
-     the provided ``color.h`` [8] and refer to ``color.cpp`` for example.  The 
-     animation should be 8 rows x 8 cols [8], have a framerate of 30 Hz [8],
+     [64] Write a program to print a colored animation to the screen.  Use the
+     provided ``color.h`` [8] and refer to ``color.cpp`` for example.  The
+     animation should be 25 rows x 60 cols [8], have a framerate of 30 Hz [8],
      last for exactly 10 seconds [8], use at least three colors [16], be such
-     that no two frames in the animation are the same [16], and be unique [-64].
-     Call this ``asciimation.cpp``.
+     that no two consecutive frames in the animation are the same [16], and be
+     unique [-64].  Call this ``asciimation.cpp``.
