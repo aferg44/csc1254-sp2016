@@ -13,7 +13,7 @@ if you submit the assignment N<=8 days in advance of the due date.
 
 2. Color drawing.
      [16] Write a program to print a color drawing to the screen.  Use the
-     provided ``color.h`` and refer to ``color.cpp`` for example.  The 
+     provided ``color.h`` and refer to ``color.cpp`` for an example.  The 
      drawing should be 8 rows x 8 cols [8] and use at least three colors [8].
      Call this ``color-drawing.cpp``.
 
@@ -29,26 +29,26 @@ if you submit the assignment N<=8 days in advance of the due date.
      ``clock.cpp``.
 
 5. Character count.
-     [32] Write a program to count the number of spaces [8], alphanumeric
-     characters [8], and lines [8] in a file.  It should accept the filename
-     via stdin, and print the numbers space-delimited, followed by a courtesy
-     newline [8].  Call this ``char-count.cpp``.
+     [32] Write a program to count the number of lines [8], spaces [8], and 
+     bytes [8] in a file.  It should accept the filename via stdin, and 
+     print the numbers space-delimited, followed by a courtesy newline [8].
+     Call this ``char-count.cpp``.
 
      a. Word count.
           [16] Additional points if instead of alphanumeric characters,
-          it counts alphabetic words (a string of one or more alphabetic
-          characters).  In this case call it ``word-count.cpp``.
+          it counts words (any sequence of characters delimited by 
+          whitespace).  In this case call it ``word-count.cpp``.
 
-6. ASCII art.
+6. ASCII font.
      [32] Write a program to print out a user-supplied string in an ASCII
      font of your design [16].  The string should print horizontally [16].
-     Use the skeleton ``ascii-art.cpp`` for reference, and the program
-     ``ascii-art`` for example execution.
+     Use the skeleton ``ascii-font.cpp`` for reference, and the program
+     ``ascii-font-color`` for example execution.
      
-     a. Colored ASCII art.
+     a. Colored ASCII font.
           [16] Addiitional points if the output is colored such that no
-          two consecutive letters share the same color. In this case,
-          call it ``ascii-art-color.cpp``.
+          two consecutive letters share the same color, as in the example
+          executable. In this case, call it ``ascii-font-color.cpp``.
 
 7. ASCII animation.
      [64] Write a program to print a colored animation to the screen.  Use
