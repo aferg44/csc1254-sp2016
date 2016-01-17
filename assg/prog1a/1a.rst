@@ -14,8 +14,8 @@ if you submit the assignment N<=8 days in advance of the due date.
 2. Color drawing.
      [16] Write a program to print a color drawing to the screen.  Use the
      provided ``color.h`` and refer to ``color.cpp`` for an example.  The 
-     drawing should be 8 rows x 8 cols [8] and use at least three colors [8].
-     Call this ``color-drawing.cpp``.
+     drawing should be at least 8 rows x 16 cols [8] and use at least three 
+     colors [8].  Call this ``color-drawing.cpp``.
 
 3. File typeout.
      [16] Write a program to read in a filename via stdin and type out the 
