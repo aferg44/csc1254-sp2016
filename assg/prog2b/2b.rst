@@ -2,69 +2,61 @@ Select up to +8 points of problems from the following. You may answer more than
 +8, but only +8 worth will be counted.
 
 
-1. [+1] Trace of a matrix.
-          The program ``trace.cpp`` calculates the sum of a diagonal of a
-          matrix, or the trace of the matrix,  in O(n^2) time.  Modify it to
-          calculate the trace in O(n) time (n operations). The function body
-          must be <=5 lines long.  Call the submitted program ``trace.cpp``. 
+1. Trace of a matrix.
 
-          [+1] Transpose of a matrix.
-               In addition to calculating the trace, calculate the transpose
-               of the matrix in (n^2)/2 swap operations and print it out. In
-               this case, call the submitted program ``transpose.cpp``.
+     [+1] The program ``trace.cpp`` calculates the sum of a diagonal of a
+     matrix, or the trace of the matrix,  in O(n^2) time.  Modify it to
+     calculate the trace in O(n) time (n operations). The function body must be
+     <=5 lines long.  Call the submitted program ``trace.cpp``. 
 
-
-2. [+1] Conversion of a character to a binary string.
-          Write a function ``std::string binary(char c)`` to translate c into a
-          string giving its binary encoding in O(log(n)) time (8 operations).
-          Test on c='A' and c='a'. The function body must be <=10 lines. Call
-          this ``binary.cpp``.
-
-         [+1] Reversing the bit encoding of a byte.
-                Additional points for writing another function ``char
-                reverse(char c)`` to "reverse" a byte, that is, transform it
-                such that its bit encoding is reversed.  Thus 11010001 would
-                become 10001011.  In this case call the file
-                ``bit-reverse.cpp``.
+       Transpose of a matrix.
+         [+1] In addition to calculating the trace, calculate the transpose of
+         the matrix in (n^2)/2 swap operations and print it out. In this case,
+         call the submitted program ``transpose.cpp``.
 
 
-3. [+2] Computing the Fibonacci sequence iteratively.
-          The Fibonacci sequence is defined as:
+2. Conversion of a character to a binary string.
+     [+1] Write a function ``std::string binary(char c)`` to translate c into a
+     string giving its binary encoding in O(log(n)) time (8 operations).  Test
+     on c='A' and c='a'. The function body must be <=10 lines. Call this
+     ``binary.cpp``.
+
+       Reversing the bit encoding of a byte.
+         [+1] Additional points for writing another function ``char
+         reverse(char c)`` to "reverse" a byte, that is, transform it such that
+         its bit encoding is reversed.  Thus 11010001 would become 10001011.
+         In this case call the file ``bit-reverse.cpp``.
+
+
+3. Computing the Fibonacci sequence iteratively.
+
+     [+2] The Fibonacci sequence is defined as:
   
-            :math:`f_n = f_{n-1} + f_{n-2}`
-            :math:`f_1 = f_2 = 1`
+       :math:`f_n = f_{n-1} + f_{n-2}`
+       :math:`f_1 = f_2 = 1`
 
-          and is equal to
+     and is equal to
 
-            1, 1, 2, 3, 5, 8, 11, ...
+       1, 1, 2, 3, 5, 8, 11, ...
   
-          That is, the nth number in the sequence is equal to the sum of the
-          two numbers before it, and the first two numbers in the sequence are
-          1. Write an iterative (non-recursive) function ``int fib(int n)`` to
-          calculate the nth Fibonacci number.
+     That is, the nth number in the sequence is equal to the sum of the two
+     numbers before it, and the first two numbers in the sequence are 1. Write
+     an iterative (non-recursive) function ``int fib(int n)`` to calculate the
+     nth Fibonacci number.
 
 
-4. [+2] Computing sin(x) iteratively.
-          The Taylor series for sin(x) is given by:
-  
-     :math:`\displaystyle\sum_{n=1}^{\infty} \frac{-1^{n+1} x^{2n+1}}{(2n-1)!}`
-  
-          That is for x given in radians. Write a function ``double sine(double
-          x)`` to calculate the sine of x (given in degrees), accurate to 1e-4,
-          using the Taylor series definition.  Also, write ``double
-          cosine(double x)`` as a one-liner (use your sine function).  
+4. Computing sin(x) iteratively.
+     [+2] Look up the Taylor series for calculating sin(x).  Then write a
+     function ``double sine(double x)`` to calculate the sine of x (given in
+     degrees), accurate to 1e-4, using the Taylor series definition.  Also,
+     write ``double cosine(double x)`` as a one-liner (use your sine function).  
 
 
-5. [+4] Analytic differentiation using the power rule.
-          Write a function ``std::string derivative(std::string s)`` to find
-          the derivative of a polynomial expression using the power rule. For
-          example, if the input s="2x^3 + 4x^2 + 6x + 8", the result should be
-          "6x^2 + 8x + 6".  Terms are expected to be of the form "ax^b", where
-          x, the caret ^, and b are all optional [1].  If the string is
-          malformed, simply exit [1].  Zero (0) should be printed in the 
-          result only if it is the only resulting term. The result does not 
-          need to be reduced.
-
-          A good approach is to write a function to find the derivative of
-          a single term, then process the string through multiple calls to
-          said function. Use ``<stringstream>`` to separate the terms.
+5. Analytic differentiation using the power rule.
+     [+4] Write a function ``std::string derivative(std::string s)`` to find
+     the derivative of a polynomial expression using the power rule. For
+     example, if the input s="2x^3 + 4x^2 + 6x + 8", the result should be "6x^2
+     + 8x + 6".  Terms are expected to be of the form "ax^b", where x, the
+     caret ^, and b are all optional [1].  If the string is malformed, simply
+     exit [1].  Zero (0) should be printed in the result only if it is the only
+     resulting term. The result does not need to be reduced.
