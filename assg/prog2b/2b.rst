@@ -8,10 +8,10 @@ Select up to +8 points of problems from the following. You may answer more than
      calculate the trace in O(n) time (n operations). The function body must be
      <=5 lines long.  Call the submitted program ``trace.cpp``. 
 
-       Transpose of a matrix.
-         [+1] In addition to calculating the trace, calculate the transpose of
-         the matrix in (n^2)/2 swap operations and print it out. In this case,
-         call the submitted program ``transpose.cpp``.
+     Transpose of a matrix.
+       [+1] In addition to calculating the trace, calculate the transpose of
+       the matrix in (n^2)/2 swap operations and print it out. In this case,
+       call the submitted program ``transpose.cpp``.
 
 
 2. Conversion of a character to a binary string.
@@ -20,11 +20,11 @@ Select up to +8 points of problems from the following. You may answer more than
      on c='A' and c='a'. The function body must be <=10 lines. Call this
      ``binary.cpp``.
 
-       Reversing the bit encoding of a byte.
-         [+1] Additional points for writing another function ``char
-         reverse(char c)`` to "reverse" a byte, that is, transform it such that
-         its bit encoding is reversed.  Thus 11010001 would become 10001011.
-         In this case call the file ``bit-reverse.cpp``.
+     Reversing the bit encoding of a byte.
+       [+1] Additional points for writing another function ``char reverse(char
+       c)`` to "reverse" a byte, that is, transform it such that its bit
+       encoding is reversed.  Thus 11010001 would become 10001011.  In this
+       case call the file ``bit-reverse.cpp``.
 
 
 3. Computing the Fibonacci sequence iteratively.
