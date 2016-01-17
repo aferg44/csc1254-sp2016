@@ -17,21 +17,22 @@ Select up to +8 points of problems from the following. You may answer more than
 2. Conversion of a character to a binary string.
      [+1] Write a function ``std::string binary(char c)`` to translate c into a
      string giving its binary encoding in O(log(n)) time (8 operations).  Test
-     on c='A' and c='a'. The function body must be <=10 lines. Call this
+     on c='A' and c='a'. The function body must be <=10 lines, but you may use
+     an auxiliary function ``std::string reverse(std::string s)``.  Call this
      ``binary.cpp``.
 
      Reversing the bit encoding of a byte.
        [+1] Additional points for writing another function ``char reverse(char
        c)`` to "reverse" a byte, that is, transform it such that its bit
        encoding is reversed.  Thus 11010001 would become 10001011.  In this
-       case call the file ``bit-reverse.cpp``.
+       case call the file ``bit-reverse.cpp``. Ensure the total file fits on 
+       a page (<=63 lines, 80 columns).
 
 
 3. Computing the Fibonacci sequence iteratively.
      [+2] The Fibonacci sequence is defined as:
   
-       :math:`f_n = f_{n-1} + f_{n-2}`
-       :math:`f_1 = f_2 = 1`
+       :math:`f_n = f_{n-1} + f_{n-2}; f_1 = f_2 = 1`
 
      and is equal to
 
@@ -40,7 +41,7 @@ Select up to +8 points of problems from the following. You may answer more than
      That is, the nth number in the sequence is equal to the sum of the two
      numbers before it, and the first two numbers in the sequence are 1. Write
      an iterative (non-recursive) function ``int fib(int n)`` to calculate the
-     nth Fibonacci number.
+     nth Fibonacci number.  The body should be <=10 lines.
 
 
 4. Computing sin(x) iteratively.
@@ -48,6 +49,7 @@ Select up to +8 points of problems from the following. You may answer more than
      function ``double sine(double x)`` to calculate the sine of x (given in
      degrees), accurate to 1e-4, using the Taylor series definition.  Also,
      write ``double cosine(double x)`` as a one-liner (use your sine function).  
+     The body of ``sine`` should be <=10 lines.
 
 
 5. Analytic differentiation using the power rule.
@@ -57,4 +59,5 @@ Select up to +8 points of problems from the following. You may answer more than
      + 8x + 6".  Terms are expected to be of the form "ax^b", where x, the
      caret ^, and b are all optional [1].  If the string is malformed, simply
      exit [1].  Zero (0) should be printed in the result only if it is the only
-     resulting term. The result does not need to be reduced.
+     resulting term. The result does not need to be reduced.  Name the file
+     ``derivative.cpp``; it should fit on one page (<=63 lines, 80 columns).
