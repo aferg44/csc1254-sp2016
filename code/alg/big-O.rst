@@ -30,6 +30,7 @@ code to find the sum, since it has to iterate over all the numbers from 1 to n.
 We say that the time complexity of this code is O(n).
 
 .. code:: cpp
+
      int sum(int n) {
        int s = 0;
        for (int i=1; i<=n; i++)
@@ -43,6 +44,7 @@ operation).  The number of operations does not depend on n, so we say that the
 time complexity of this code is O(1).
 
 .. code:: cpp
+
      int sum(int n) {
        return (n*(n+1))/2;
      }
