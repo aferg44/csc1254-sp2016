@@ -28,16 +28,16 @@ if you submit the assignment N<=8 days in advance of the due date.
      the bottom of the screen.  Refer to the ``ctime.cpp`` code.  Call this 
      ``clock.cpp``.
 
-5. Character count.
+5. Line/space/byte count.
      [32] Write a program to count the number of lines [8], spaces [8], and 
      bytes [8] in a file.  It should accept the filename via stdin, and 
      print the numbers space-delimited, followed by a courtesy newline [8].
-     Call this ``char-count.cpp``.
+     Call this ``space-count.cpp``.
 
-     a. Word count.
-          [16] Additional points if instead of alphanumeric characters,
-          it counts words (any sequence of characters delimited by 
-          whitespace).  In this case call it ``word-count.cpp``.
+     a. Line/word/byte count.
+          [16] Additional points if instead of spaces, it counts words 
+          (any sequence of characters delimited by whitespace).  In this 
+          case call it ``word-count.cpp``.
 
 6. ASCII font.
      [32] Write a program to print out a user-supplied string in an ASCII
