@@ -1,7 +1,6 @@
 Select up to +8 points of problems from the following. You may answer more than
 +8, but only +8 worth will be counted.
 
-
 1. Trace of a matrix.
      [+1] The program ``trace.cpp`` calculates the sum of a diagonal of a
      matrix, or the trace of the matrix,  in O(n^2) time.  Modify it to
@@ -12,7 +11,6 @@ Select up to +8 points of problems from the following. You may answer more than
        [+1] In addition to calculating the trace, calculate the transpose of
        the matrix in (n^2)/2 swap operations and print it out. In this case,
        call the submitted program ``transpose.cpp``.
-
 
 2. Conversion of a character to a binary string.
      [+1] Write a function ``std::string binary(char c)`` to translate c into a
@@ -28,7 +26,6 @@ Select up to +8 points of problems from the following. You may answer more than
        case call the file ``bit-reverse.cpp``. Ensure the total file fits on 
        a page (<=63 lines, 80 columns).
 
-
 3. Computing the Fibonacci sequence iteratively.
      [+2] The Fibonacci sequence is defined as:
   
@@ -36,13 +33,13 @@ Select up to +8 points of problems from the following. You may answer more than
 
      and is equal to
 
-       1, 1, 2, 3, 5, 8, 11, ...
+       1, 1, 2, 3, 5, 8, 13, ...
   
      That is, the nth number in the sequence is equal to the sum of the two
      numbers before it, and the first two numbers in the sequence are 1. Write
      an iterative (non-recursive) function ``int fib(int n)`` to calculate the
-     nth Fibonacci number.  The body should be <=10 lines.
-
+     nth Fibonacci number.  The body should be <=10 lines. Call this
+     ``fib.cpp``.
 
 4. Computing sin(x) iteratively.
      [+2] Look up the Taylor series for calculating sin(x).  Then write a
@@ -50,7 +47,6 @@ Select up to +8 points of problems from the following. You may answer more than
      degrees), accurate to 1e-4, using the Taylor series definition.  Also,
      write ``double cosine(double x)`` as a one-liner (use your sine function).  
      The body of ``sine`` should be <=10 lines.
-
 
 5. Analytic differentiation using the power rule.
      [+4] Write a function ``std::string derivative(std::string s)`` to find
