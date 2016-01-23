@@ -35,9 +35,9 @@ if you submit the assignment N<=8 days in advance of the due date.
      Call this ``space-count.cpp``.
 
      a. Line/word/byte count.
-          [16] Additional points if instead of spaces, it counts words 
-          (any sequence of characters delimited by whitespace).  In this 
-          case call it ``word-count.cpp``.
+          [16] Additional points if instead of lines/spaces/bytes, it counts
+          lines/words/bytes (where a word is any sequence of characters
+          delimited by whitespace).  In this case call it ``word-count.cpp``.
 
 6. ASCII font.
      [32] Write a program to print out a user-supplied string in an ASCII
