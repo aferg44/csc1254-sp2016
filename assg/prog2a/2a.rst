@@ -1,0 +1,63 @@
+Select up to 64 points worth of problems.
+
+1. Colorized cat.
+     [16] Write a program accept a filename as a command-line argument [4], use
+     try/catch to verify the existence of the file [4], then output that file,
+     colorizing it according to color markers in the file [8].  Call it
+     ``color-cat.cpp``. See the example file ``colorized.txt`` for an example
+     of a file with color markers, and ``bin/color-cat`` for example execution.
+
+2. Ordered prime factorization.
+     [16] Write a program with function ``void factor(int n)`` to print the
+     prime factorization of the integer n, which should be provided as a
+     command-line argument [4]. It should print the factors in order [4] in at
+     most O(n) time [4].  Use try/catch to verify that n is positive [4]. Call
+     it ``prime-factor.cpp``. 
+
+3. Efficient exponentiation.
+     [16] Write a program to accept a two integers a and n as command-line
+     arguments [2], use try/catch to verify that n>=0 [2], then output a^n. The
+     program should have function function ``int exp(int a, int n)`` to
+     calculate a^n in O(log(n)) time [4]. You may not use any external
+     libraries [-16].  You will need to write an auxiliary function ``int
+     exp(int n)`` to calculate 2^n in O(n) time [4], and ``int log2(int n)`` to
+     calculate the base-2 logarithm of n in O(log(n)) time [4].  Call this
+     ``exp.cpp``. See ``src/exp.rst`` for more explanation.
+
+4. Reversal of a binary file.
+     [16] Write a program to reverse a file. It should accept two command-line
+     arguments: the first an input file, the second an output file [4]. It
+     should write the reverse of the contents of the input file to the output
+     file [8].  Use try/catch to verify existence of input file [4]. If the
+     output file exists, you may overwrite it without prompting the user. Call
+     this ``file-reverse.cpp``.
+
+5. ASCII animation.
+     [16] If you didn't already do ``asciimation``, you may do it for 16 points
+     now that you have ``prog1a/src/asciimation.cpp``.  See the original
+     problem spec for details.  All itemized point values are worth one-fourth
+     of the original.
+
+6. Efficient evaluation of a polynomial using Horner's rule.
+     [16] Look up Horner's rule for evaluating a polynomial efficiently, then
+     write a program with function ``int horner(int p[], int n, int x)`` which
+     will evaluate the polynomial whose coefficients are stored in ``p`` at the
+     integer value ``x`` [8]. If ``int p[4] = {2, -2, 3, 4};``, the
+     corresponding polynomial is ``4x^3 + 3x^2 - 2x + 2``. The coefficients of
+     the polynomial should be accepted as command-line arguments (for this
+     example, they would be given in the order ``2 -2 3 4``) [4]. Let ``x`` be
+     the first argument.  Call this ``horner.cpp``.  Print a line to show the
+     evaluation [4], such as the following, in the case x=2:
+     
+     ``4*2^3 + 3*2^2 - 2*2 + 1 = 42``
+
+7. Encryption and decryption of a file.
+     [32] Write a program to perform encryption and decryption of a file. It
+     should accept a file name as a command-line argument [4]. Then it should
+     securely ask the user for a password (use ``getpass``) [4]. If the file is
+     encrypted, it should decrypt; if it is not encrypted, it should encrypt it
+     [4]. In either case the original file should be replaced [4].  See the
+     file ``src/encrypt.rst`` for details on a simple encryption and decryption
+     algorithm. In any case both your encryption [8] and decryption [8] methods
+     should work and be such that the file cannot be easily decrypted without
+     the password.
