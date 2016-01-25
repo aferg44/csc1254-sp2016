@@ -18,11 +18,12 @@ Select up to 64 points worth of problems.
      [16] Write a program to accept a two integers a and n as command-line
      arguments [2], use try/catch or assert to verify that n>=0 [2], then
      output a^n. The program should have function function ``int exp(int a, int
-     n)`` to calculate a^n in O(log(n)) time [4]. You may not use any external
+     n)`` to calculate a^n efficiently [4]. You may not use any external
      libraries [-16].  You will need to write an auxiliary function ``int
      exp(int n)`` to calculate 2^n in O(n) time [4], and ``int log2(int n)`` to
      calculate the base-2 logarithm of n in O(log(n)) time [4].  Call this
-     ``exp.cpp``. See ``src/exp.rst`` for more explanation.
+     ``exp.cpp``. See ``src/exp.rst`` for an explanation of how to reduce
+     the number of operations.
 
 4. Reversal of a binary file.
      [16] Write a program to reverse a file. It should accept two command-line
