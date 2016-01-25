@@ -1,4 +1,5 @@
 #include <iostream> 
+#include <cmath> 
 
 /**
  * This is an O(n^2) algorithm given that the implementation of pow is linear

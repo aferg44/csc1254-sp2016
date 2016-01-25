@@ -7,6 +7,7 @@
  */
 bool is_integer(char *a) {
   int i=0;
+  if (a[0] == '-') i++;
   while (a[i] != '\0') {
     if (!isdigit(a[i]))
       return false;

@@ -1,5 +1,7 @@
-#include <cstdlib>     // <~~~ include for getpass
+#include <cstdlib>  
+#include <unistd.h>     // <~~~ include for getpass
 #include <iostream>
+#include <string.h>
 
 /**
  * NOTE: It is generally not a good idea to store passwords in the form of
