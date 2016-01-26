@@ -29,7 +29,7 @@ ensure that n>=0.
 
 Another less-obvious assumption is that the value which is returned can be held
 by an unsigned integer (usually 4 bytes).  For an unsigned integer, this is
-4,294,967,295.  For n as low as 92,681, we can exceed this value and cause an
+4,294,967,295.  For n as low as 92,682, we can exceed this value and cause an
 **overflow error**.  Thus we might also check to make sure that the input n is
 within bounds.  Some things which are routinely important to check:
 
