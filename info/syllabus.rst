@@ -6,7 +6,7 @@ will learn about advanced topics in programming. See the calendar for details.
 .. raw::
            Name        Castleberry, Dennis
            Office      2019 Louisiana Digital Media Center
-           Hours       MWF: 10:00-4:00, by appt.
+           Hours       MW: 10:00-4:00, F 2:00-4:00, by appt.
            E-mail      dcastl2@tigers.lsu.edu
            Phone       (225) 578-5912
        
