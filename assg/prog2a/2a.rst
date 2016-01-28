@@ -46,10 +46,10 @@ Select up to 64 points worth of problems.
      integer value ``x`` [8]. If ``int p[4] = {2, -2, 3, 4};``, the
      corresponding polynomial is ``4x^3 + 3x^2 - 2x + 2``. The coefficients of
      the polynomial should be accepted as command-line arguments (for this
-     example, they would be given in the order ``2 -2 3 4``) [4]. Let ``x`` be
-     the first argument.  Use try/catch or assert for input verification. Call 
-     this ``horner.cpp``.  Print a line to show the evaluation [4], such as the 
-     following, in the case x=2:
+     example, they would be given in the order ``2 -2 3 4``) [4]. Let the value
+     of ``x`` be the first argument.  Use try/catch or assert for input
+     verification. Call this ``horner.cpp``.  Print a line to show the
+     evaluation [4], such as the following, in the case x=2:
      
      ``4*2^3 + 3*2^2 - 2*2 + 1 = 42``
 
