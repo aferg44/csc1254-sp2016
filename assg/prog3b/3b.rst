@@ -1,0 +1,61 @@
+Select up to +8 from the following.
+
+
+1. Modularly designing your project code.
+   [+1] Create header files and put all the function prototypes you code for
+        each problem in them. 
+        
+        * ``dice.h``      and ``dice.cpp``      with namespace ``di``
+        * ``cards.h``     and ``cards.cpp``     with namespace ``crd``
+        * ``imag.h``      and ``imag.cpp``      with namespace ``img``
+
+        i. Using Makefiles for automated compilation.
+           [+1] Include a Makefile to compile all the sources you submit for this
+           assignment.
+
+
+2. Documenting code using JavaDoc style.
+   [+1] Document all your functions using the JavaDoc style.
+
+   i. Use doxygen, the automated documentation generator.
+      [+1] Follow the instructions in ``src/doxygen.rst`` to run doxygen on
+           your code to generate documentation for your project automatically.
+
+
+3. Dice.
+   [+2] Write a function ``int dice_roll(int number, int sides)`` which will
+        roll ``number`` many ``sides``-sided dice and sum the result.  See
+        ``src/rand.cpp`` for how to generate random numbers using C libraries.
+
+        i.  Calculation of pi using the Monte Carlo method.
+            [+2] Write a function ``float pi(int n)`` which calculates pi
+                 using randomness.  Use your ``dice_roll`` function.  See
+                 ``src/monte-carlo.rst`` for details.
+   
+
+4. Cards.
+
+   [+2] Write a ``struct card`` with two integer components ``suit`` and
+       ``rank``. Also write functions ``void print(card c)`` to print out the 
+       rank and suit of a card (use ``color.h`` to print hearts and diamonds
+       in red) and ``void print(card[] c, int n)`` to print out a size-n deck
+       of cards. See ``src/suits.cpp`` for how to print out the suits.
+
+        i. Shuffling cards.
+           [+2] Write a function ``void shuffle(card[] cards, int n)`` to
+                shuffle a size-n deck of cards. 
+
+
+5. Complex numbers.
+   [+2] Write a ``struct complex`` with two floating-point components
+        ``real`` and ``imag``.  Then write functions
+        ``complex multiply(complex a, complex b)`` and
+        ``complex add(complex a, complex b)`` which return the sum and 
+        product of two complex numbers.
+
+        i. Powers of complex numbers and more robust sqrt(x) function.
+           [+2] Implement ``complex sqrt(complex x)`` to handle the square 
+                root of negative numbers and ``complex pow(complex x, int n)``
+                to handle exponentiation of complex numbers.  You may use the
+                ``sqrt`` function from ``<cmath>`` to help you.
+
