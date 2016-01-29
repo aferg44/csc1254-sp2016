@@ -46,14 +46,14 @@ Select up to +8 from the following.
 
 
 5. Complex numbers.
-     [+2] Write a ``struct complex`` with two floating-point components
-     ``real`` and ``imag``.  Then write functions ``complex multiply(complex a,
-     complex b)`` and ``complex add(complex a, complex b)`` which return the
-     sum and product of two complex numbers.
+     [+2] Write a ``struct imag`` with two floating-point components ``real``
+     and ``imag``.  Then write functions ``imag multiply(imag a, imag b)`` and
+     ``imag add(imag a, imag b)`` which return the sum and product of two
+     complex numbers.
 
      i. Powers of complex numbers and more robust sqrt(x) function.
-          [+2] Implement ``complex sqrt(complex x)`` to handle the square root
-          of negative numbers and ``complex pow(complex x, int n)`` to handle
+          [+2] Implement ``imag sqrt(imag x)`` to handle the square root of
+          negative numbers and ``imag pow(imag x, int n)`` to handle
           exponentiation of complex numbers.  You may use the ``sqrt`` function
-          from ``<cmath>`` to help you.
+          from ``<cmath>`` to help you.  Re-use ``multiply`` for ``pow``. 
 
