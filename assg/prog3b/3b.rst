@@ -9,9 +9,9 @@ Select up to +8 from the following.
           * ``cards.h``     and ``cards.cpp``     with namespace ``crd``
           * ``imag.h``      and ``imag.cpp``      with namespace ``img``
 
-      i. Using Makefiles for automated compilation.
-         [+1] Include a Makefile to compile all the sources you submit for this
-         assignment.
+     i. Using Makefiles for automated compilation.
+        [+1] Include a Makefile to compile all the sources you submit for this
+        assignment.
 
 
 2. Documenting code using JavaDoc style.
