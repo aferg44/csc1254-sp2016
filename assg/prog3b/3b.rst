@@ -9,9 +9,9 @@ Select up to +8 from the following.
           * ``cards.h``     and ``cards.cpp``     with namespace ``crd``
           * ``imag.h``      and ``imag.cpp``      with namespace ``img``
 
-          i. Using Makefiles for automated compilation.
-               [+1] Include a Makefile to compile all the sources you submit for
-               this assignment.
+      i. Using Makefiles for automated compilation.
+         [+1] Include a Makefile to compile all the sources you submit for this
+         assignment.
 
 
 2. Documenting code using JavaDoc style.
@@ -27,10 +27,10 @@ Select up to +8 from the following.
      roll ``number`` many ``sides``-sided dice and sum the result.  See
      ``src/rand.cpp`` for how to generate random numbers using C libraries.
 
-          i. Calculation of pi using the Monte Carlo method.
-               [+2] Write a function ``float pi(int n)`` which calculates pi
-               using randomness.  Use your ``dice_roll`` function.  See
-               ``src/monte-carlo.rst`` for details.
+     i. Calculation of pi using the Monte Carlo method.
+        [+2] Write a function ``float pi(int n)`` which calculates pi using
+        randomness.  Use your ``dice_roll`` function.  See
+        ``src/monte-carlo.rst`` for details.
    
 
 4. Cards.
@@ -40,9 +40,9 @@ Select up to +8 from the following.
      red) and ``void print(card[] c, int n)`` to print out a size-n deck of
      cards. See ``src/suits.cpp`` for how to print out the suits.
 
-          i. Shuffling cards.
-               [+2] Write a function ``void shuffle(card[] cards, int n)`` to
-               shuffle a size-n deck of cards. 
+     i. Shuffling cards.
+        [+2] Write a function ``void shuffle(card[] cards, int n)`` to shuffle
+        a size-n deck of cards. 
 
 
 5. Complex numbers.
@@ -51,9 +51,9 @@ Select up to +8 from the following.
      complex b)`` and ``complex add(complex a, complex b)`` which return the
      sum and product of two complex numbers.
 
-          i. Powers of complex numbers and more robust sqrt(x) function.
-               [+2] Implement ``complex sqrt(complex x)`` to handle the square
-               root of negative numbers and ``complex pow(complex x, int n)``
-               to handle exponentiation of complex numbers.  You may use the
-               ``sqrt`` function from ``<cmath>`` to help you.
+     i. Powers of complex numbers and more robust sqrt(x) function.
+        [+2] Implement ``complex sqrt(complex x)`` to handle the square root of
+        negative numbers and ``complex pow(complex x, int n)`` to handle
+        exponentiation of complex numbers.  You may use the ``sqrt`` function
+        from ``<cmath>`` to help you.
 
