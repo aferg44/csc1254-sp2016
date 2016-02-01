@@ -36,16 +36,16 @@ Efficiency
     + 2^n + log(n)
 
   * Write a function ``int range(int a[], int n)`` to find the range (highest
-  minus lowest values) in O(n) time.
+    minus lowest values) in O(n) time.
 
   * Write a function ``int factors(int n)`` to print all proper divisors of
-  n in O(sqrt(n)) time.  It does not need to print them in order.
+    n in O(sqrt(n)) time.  It does not need to print them in order.
 
   * Write a function ``int log2(int n)`` to calculate the base-2 logarithm
-  of n in O(log(n)) time.
+    of n in O(log(n)) time.
 
   * Write a function ``bool is_palindrome(std::string s)`` to tell if s is
-  a palindrome in O(1) additional space.
+    a palindrome in O(1) additional space.
 
 
 Input and Error-Handling
