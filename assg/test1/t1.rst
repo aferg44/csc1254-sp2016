@@ -52,46 +52,46 @@ Input and Error-Handling
 ------------------------
 
   * Name the three different ways to accept input from a user.  Explain why
-  error-handling is important. What are ways to handle errors?
+    error-handling is important. What are ways to handle errors?
 
   * Write a program to print its command-line arguments backwards line-by-line,
-  and number them accordingly (first argument should be indexed at 1, second at
-  2, etc.).
+    and number them accordingly (first argument should be indexed at 1, second at
+    2, etc.).
 
   * Write a program with a ``void usage(char *name)`` function which prints:
-  ``usage: <progname> num`` and include an ``int main(int argc, char **argv)``
-  function which calls it if ``argc`` is not equal to 2.
+    ``usage: <progname> num`` and include an ``int main(int argc, char **argv)``
+    function which calls it if ``argc`` is not equal to 2.
 
   * Write a program to check to see if the first command-line argument is a
-  digit, such as -101 or 10. If it is a digit, the program should do nothing;
-  but if it is not, it should trigger an assert statement.
+    digit, such as -101 or 10. If it is a digit, the program should do nothing;
+    but if it is not, it should trigger an assert statement.
 
   * Write a program with function ``float divide(int numerator, int
-  denominator`` which throws an error if ``denominator`` is 0. Otherwise it
-  should print the result of the division. Use try-catch to handle the error.
+    denominator`` which throws an error if ``denominator`` is 0. Otherwise it
+    should print the result of the division. Use try-catch to handle the error.
 
   * Write a program with function ``void cat(std::string filename)`` to accept
-  the name of a text file as a command-line argument, open the text file, then
-  output it to ``stdout``. If the file does not exist, an assert statement
-  should be triggered.
+    the name of a text file as a command-line argument, open the text file, then
+    output it to ``stdout``. If the file does not exist, an assert statement
+    should be triggered.
 
   * Write a program with function ``void copy(std::string file1, std::string
-  file2)`` to accept the name two text files as a command-line arguments. It
-  should copy the first file into the second. If the first does not exist, an
-  assert statement should be triggered.
+    file2)`` to accept the name two text files as a command-line arguments. It
+    should copy the first file into the second. If the first does not exist, an
+    assert statement should be triggered.
 
 
 Libraries and Modular Design
 ----------------------------
 
   * Write a full library for functions ``void hi::hello()`` (which prints
-  "Hello, world!") and ``void hi::hello(std::string name)`` (which greets
-  ``name``).  It should include a header, library source, demo code, and
-  Makefile.
+    "Hello, world!") and ``void hi::hello(std::string name)`` (which greets
+    ``name``).  It should include a header, library source, demo code, and
+    Makefile.
 
   * Write a full library for functions ``int num::sum(int n)`` (which sums
-  numbers 1 to n) and ``int num::factorial(int n)`` (which finds n!).  It
-  should include a header, library source, demo code, and Makefile.
+    numbers 1 to n) and ``int num::factorial(int n)`` (which finds n!).  It
+    should include a header, library source, demo code, and Makefile.
 
   * Define the following:
   
@@ -105,15 +105,15 @@ Libraries and Modular Design
     + directive
 
   * Be able to identify elements of a compilation command. For example,
-  in the command ``g++ main.cpp hello.o -o hello``, be able to match the
-  terms with the respective parts of the command.
+    in the command ``g++ main.cpp hello.o -o hello``, be able to match the
+    terms with the respective parts of the command.
 
 
 Documentation and Style
 -----------------------
 
   * Know the Javadoc style for a function; be able to comment a function in
-  Javadoc.
+    Javadoc.
 
   * Be able to provide arguments for and against certain stylistic conventions.
 
@@ -142,4 +142,4 @@ Dynamic Memory
 --------------
 
   * Be able to read and execute code which uses pointer assignments.  You do
-  not have to write code with pointers.
+    not have to write code with pointers.
