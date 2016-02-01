@@ -1,0 +1,145 @@
+Test 1 Practice
+===============
+
+
+Basics
+------
+
+  * Know terminology.  Be able to identify the names of parts of code.
+  
+  * Be able to superimpose a workflow diagram over a snippet of code.
+
+
+Efficiency
+----------
+
+  * Define **time complexity** and **space complexity**.
+
+  * Rank the following by speed (first being fastest):
+
+    + O(n^2)
+    + O(log(n))
+    + O(n!)
+    + O(1)
+    + O(n)
+    + O(2^n)
+    + O(n*log(n))
+    + O(n^n)
+
+  * Find the big-O of the following functions:
+
+    + 5
+    + log(4n) + 10
+    + 3n + 1
+    + 2n^2 + 5n + 4
+    + n! + 2n
+    + 2^n + log(n)
+
+  * Write a function ``int range(int a[], int n)`` to find the range (highest
+  minus lowest values) in O(n) time.
+
+  * Write a function ``int factors(int n)`` to print all proper divisors of
+  n in O(sqrt(n)) time.  It does not need to print them in order.
+
+  * Write a function ``int log2(int n)`` to calculate the base-2 logarithm
+  of n in O(log(n)) time.
+
+  * Write a function ``bool is_palindrome(std::string s)`` to tell if s is
+  a palindrome in O(1) additional space.
+
+
+Input and Error-Handling
+------------------------
+
+  * Name the three different ways to accept input from a user.  Explain why
+  error-handling is important. What are ways to handle errors?
+
+  * Write a program to print its command-line arguments backwards line-by-line,
+  and number them accordingly (first argument should be indexed at 1, second at
+  2, etc.).
+
+  * Write a program with a ``void usage(char *name)`` function which prints:
+  ``usage: <progname> num`` and include an ``int main(int argc, char **argv)``
+  function which calls it if ``argc`` is not equal to 2.
+
+  * Write a program to check to see if the first command-line argument is a
+  digit, such as -101 or 10. If it is a digit, the program should do nothing;
+  but if it is not, it should trigger an assert statement.
+
+  * Write a program with function ``float divide(int numerator, int
+  denominator`` which throws an error if ``denominator`` is 0. Otherwise it
+  should print the result of the division. Use try-catch to handle the error.
+
+  * Write a program with function ``void cat(std::string filename)`` to accept
+  the name of a text file as a command-line argument, open the text file, then
+  output it to ``stdout``. If the file does not exist, an assert statement
+  should be triggered.
+
+  * Write a program with function ``void copy(std::string file1, std::string
+  file2)`` to accept the name two text files as a command-line arguments. It
+  should copy the first file into the second. If the first does not exist, an
+  assert statement should be triggered.
+
+
+Libraries and Modular Design
+----------------------------
+
+  * Write a full library for functions ``void hi::hello()`` (which prints
+  "Hello, world!") and ``void hi::hello(std::string name)`` (which greets
+  ``name``).  It should include a header, library source, demo code, and
+  Makefile.
+
+  * Write a full library for functions ``int num::sum(int n)`` (which sums
+  numbers 1 to n) and ``int num::factorial(int n)`` (which finds n!).  It
+  should include a header, library source, demo code, and Makefile.
+
+  * Define the following:
+  
+    + header file
+    + library source
+    + object file
+    + executable
+    + compiler
+    + linker
+    + namespace
+    + directive
+
+  * Be able to identify elements of a compilation command. For example,
+  in the command ``g++ main.cpp hello.o -o hello``, be able to match the
+  terms with the respective parts of the command.
+
+
+Documentation and Style
+-----------------------
+
+  * Know the Javadoc style for a function; be able to comment a function in
+  Javadoc.
+
+  * Be able to provide arguments for and against certain stylistic conventions.
+
+  * Be able to mimic the style of another programmer. 
+
+  * Be able to copy logic from another programmer in a different style.
+
+
+Regex
+-----
+
+  * Know the symbols of regex, and be able to match them to their definitions.
+
+  * Write a regex substitution to indent the line by two spaces.
+
+  * Write a regex substitution to add semicolons to the end of the line.
+
+  * Write a regex substitution to double-quote the line.
+  
+  * Write a regex substitution to switch two columns in a two-column data file.
+
+  * Write a regex substitution to switch all lowercase letters to underscores.
+
+
+Dynamic Memory
+--------------
+
+  * Be able to read and execute code which uses pointer assignments.  You do
+  not have to write code with pointers.
