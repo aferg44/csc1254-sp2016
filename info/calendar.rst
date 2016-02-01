@@ -18,10 +18,10 @@ Advanced Data Types, and Algorithmics.
 | 01/24         | Input and Verification    | Libraries                       |
 |   ^prog1a     |                           |                                 |
 +---------------+---------------------------+---------------------------------+
-| 01/31         | Documentation and Design  | Dynamic Memory                  |
+| 01/31         | Documentation and Regex   | Dynamic Memory                  |
 |   ^prog2b     |                           |                                 |
 +---------------+---------------------------+---------------------------------+
-| 02/07         | Practice                  | **Test 1**                      |
+| 02/07         | Mardi Gras Holiday        | **Test 1**                      |
 |   ^prog2a     |                           |                                 |
 +---------------+---------------------------+---------------------------------+
 | 02/14         | Object-Oriented Prog.     | Inheritance                     |
