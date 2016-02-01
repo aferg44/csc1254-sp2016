@@ -8,6 +8,7 @@ r=1, it is pi/4.  The area of the box in the first quadrant is a_b = 1.  Thus
        
   pi = 4*a_c/a_b = 4*(pi/4)/1 = pi.
 
+Diagram of the circle:
 .. raw::
    +-------------------------------------------------------------+
    |                     *******************        x            |
