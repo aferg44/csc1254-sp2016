@@ -20,10 +20,10 @@ stored. When a pointer is initialized, think of the arrow initially being
 drawn;  when a pointer is re-assigned, think of the arrow being re-drawn to
 point to the new location.
 
-To initialize a pointer, we use the **address-of** operator to refer to the
-address of the datum we would like to point to. To indicate we are declaring
-a pointer, we put an asterisk before the variable name of the pointer. For
-example:
+To initialize a pointer, we use the **address-of** operator (&) to refer to
+the address of the datum we would like to point to. To indicate we are
+declaring a pointer, we put an asterisk before the variable name of the
+pointer. For example:
 
 .. code:: cpp
 
@@ -31,10 +31,10 @@ example:
    int *a_ptr = &a;
 
 In this code, a is initialized to 3; but then a pointer is assigned to the
-address of a.  We don't know what the exact address is (although it can be
-printed to the screen).  From hereon, we can use ``a_ptr`` to reference either
-the memory address where the value of ``a`` is stored, and we can access and
-modify the value of ``a`` itself.  To print the address:
+address of a (that is &a).  We don't know what the exact address is (although
+it can be printed to the screen).  From hereon, we can use ``a_ptr`` to
+reference either the memory address where the value of ``a`` is stored, and we
+can access and modify the value of ``a`` itself.  To print the address:
 
 .. code:: cpp
 
