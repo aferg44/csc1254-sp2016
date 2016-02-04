@@ -1,6 +1,8 @@
 Test 1 Practice
 ===============
 
+Remember, accuracy is important.  See ``info/grading.rst`` for a breakdown of
+my grading policy.
 
 Basics
 ------
@@ -8,6 +10,8 @@ Basics
   * Know terminology.  Be able to identify the names of parts of code.
   
   * Be able to superimpose a workflow diagram over a snippet of code.
+
+  * Be able to write any code which was given on the preliminary exam.
 
 
 Efficiency
@@ -64,7 +68,8 @@ Input and Error-Handling
 
   * Write a program to check to see if the first command-line argument is a
     digit, such as -101 or 10. If it is a digit, the program should do nothing;
-    but if it is not, it should trigger an assert statement.
+    but if it is not, it should trigger an assert statement. Write your own
+    ``bool is_digit(char *arr)`` function.
 
   * Write a program with function ``float divide(int numerator, int
     denominator`` which throws an error if ``denominator`` is 0. Otherwise it
@@ -115,11 +120,11 @@ Documentation and Style
   * Know the Javadoc style for a function; be able to comment a function in
     Javadoc.
 
-  * Be able to provide arguments for and against certain stylistic conventions.
+  * Be able to provide arguments for and against certain stylistic conventions,
+    such as spaces vs. tabs, more vs. less space, etc.
 
-  * Be able to mimic the style of another programmer. 
-
-  * Be able to copy logic from another programmer in a different style.
+  * Be able to mimic the style of another programmer, or copy the logic of 
+    another programmer in another style.
 
 
 Regex
@@ -127,19 +132,19 @@ Regex
 
   * Know the symbols of regex, and be able to match them to their definitions.
 
-  * Write a regex substitution to indent the line by two spaces.
-
-  * Write a regex substitution to add semicolons to the end of the line.
-
-  * Write a regex substitution to double-quote the line.
+  * Write regex substitutions to:
   
-  * Write a regex substitution to switch two columns in a two-column data file.
-
-  * Write a regex substitution to switch all lowercase letters to underscores.
+     + indent the line by two spaces.
+     + add semicolons to the end of the line.
+     + double-quote the line.
+     + switch two columns in a two-column data file.
+     + switch all lowercase letters to underscores.
+     + comment or uncomment a line.
 
 
 Dynamic Memory
 --------------
 
-  * Be able to read and execute code which uses pointer assignments.  You do
-    not have to write code with pointers.
+  * Be able to read and execute code which uses pointer assignments.  In
+    particular, be able to obtain output from codes similar to those in
+    ``code/mem/puzzles/``.
