@@ -1,0 +1,37 @@
+Select up to 64 points worth of problems.
+
+1. Converting a string of integers of arbitrary size to an integer array.
+   [32] Write functions: 
+   
+   [8] ``bool is_integer(std::string s)``
+   [8] ``int words_of(std::string s)``
+   [8] ``int *array(std::string s)``
+   
+   to place all integers in the string ``s`` into an integer array and return
+   it.  Let the first element of the array (that is ``a[0]``) be set to the
+   total size of the array.  Use the skeleton ``src/str-to-int.cpp``, and leave
+   ``main`` unaltered [-32]. Document the function with Javadoc [8].  Call this
+   ``str-to-int.cpp``.
+
+2. Converting a string of words of arbitrary size to an array of C strings.
+   [32] Write functions 
+   
+   [8] ``int words_of(std::string s)``
+   [16] ``char **word_array(std::string s)``
+   
+   to place all words in the string ``s`` into a jagged char array and return
+   it.  Use the skeleton ``src/word-array.cpp``, and keep the ``main`` function
+   unaltered [-32]. Document the function with Javadoc [8].  Call this
+   ``word-array.cpp``.
+
+3. Normalization of an arbitrarily-sized array of numbers.
+   [64] Write functions:
+ 
+   [8] ``float mean(float *a, int n)``
+   [8] ``float stddev(float *a, int n)`` 
+   [8] ``float *normalize(float *a, int n)``
+ 
+   No function should be more than eight lines long [8]. Document them with
+   Javadoc [8].  As in ``mem/realloc.cpp``, read in numbers from stdin through
+   strings and convert them to floats [8] until the user enters ``quit`` [8].
+   Output the normalized array [8].  Call this ``normalize.cpp``. 
