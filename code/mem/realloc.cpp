@@ -5,7 +5,7 @@ int main() {
 
   // Set up array a with index i, limit, and num to read in.
   int  i = 0, limit=1, num;
-  int *a = (int *)malloc(i*sizeof(int));
+  int *a = (int *)malloc(limit*sizeof(int));
 
   // Read in nums while able. If 0 entered, exit loop. Put num into
   // array.  If limit exceeded, double the capacity of the array.

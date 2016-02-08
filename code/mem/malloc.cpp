@@ -15,4 +15,7 @@ int main() {
     std::cout << a[i];
   std::cout << std::endl;
 
+  // Release the memory.
+  free(a);
+
 }
