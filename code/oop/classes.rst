@@ -54,11 +54,11 @@ definition file. A header file for a class may look like this:
       float weight;
 
      public:
-      Cat(std::string, float);
       std::string getName();
-      std::string setName();
+      void setName(std::string name);
       float getWeight();
       float gainPounds(float pounds);
+      Cat(std::string, float);
 
    };
 
@@ -82,12 +82,12 @@ Here is what a class definition file may look like:
      this->name = name;
    }
 
-   void Cat::getWeight(float weight) {
+   float Cat::getWeight() {
      return weight;
    }
 
-   float gainPounds(float pounds) {
-     this->weight += pounds;
+   void gainPounds(float pounds) {
+     weight += pounds;
    }
 
    Cat::Cat(std::string name, float weight) {
