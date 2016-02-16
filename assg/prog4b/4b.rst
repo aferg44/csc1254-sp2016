@@ -1,0 +1,67 @@
+This is an exploration of other languages (ones which I know). If you are a CSC
+major, I would recommend you dabble in all of these.  Note that you will need
+to enable X11 forwarding on your ssh client to use a lot of the features of
+these languages. 
+
+
+1. BaSH, the shell scripting language.
+     [+1] Write a shell script which takes an argument X, displays X.cpp on the
+     screen (line-numbered; use nl) until the user hits Enter, then compiles
+     X.cpp into an executable X, and runs it. Call it ``run.sh``. If you place
+     it into a directory ~/bin, you can use it from anywhere. 
+
+2. LaTeX, a markup language for creating papers.
+     [+2] Write a LaTeX document to explain integration by parts to a MATH 1552
+     student.  It should contain the formula and an example. Call it
+     ``calculus.tex``. Your teachers would be most impressed if you turned in
+     homework in this language.
+
+3. Python, a dynamic scripting language (how to cheat in calculus).
+     [+2] Using the sympy library, write a Python script to evaluate for the
+     function f(x)=sin(x)/x, the limits as x->0 and x->oo, the derivative, the
+     integral, and the series expansion to five terms.  Call this 
+     ``symbolic.py``.  And remember: you learned it from me. ;)
+
+     http://docs.sympy.org/latest/tutorial/calculus.html
+
+4. PHP, the web programming language.  
+     [+2] Write a PHP script to output an HTML table containing a color palette
+     with 4096 colors. It should have 16x16x16 shades of RGB of the form
+     "0xXXYYZZ" where X, Y, and Z are the hex values 0-F.  Show the hex values
+     alongside the colors.  Call this ``palette.php``.  See ``palette.html``
+     for a generated file.
+
+5. Java, an object-oriented programming language similar to C++.
+     [+2] Write a Java program which prints a Java "Hello, world!" program to
+     stdout. Note the similaries to and differences from C++. Call it 
+     ``Hello.java``.
+
+6. R, the statistics language (how to cheat in statistics).
+     [+2] The file ``scores.dat`` contains a comma-separated list with category
+     total scores from this class (identifying information has been removed
+     from the file).  Write a script to calculate and print the means and
+     standard deviations of all fields.  Also, print the correlation
+     coefficient matrix of the data.  Finally, plot a histogram of the total
+     score (include eight breaks).  Call this ``analysis.R``.
+
+7. Octave, a scientific computing language (how to cheat in linear algebra).
+     [+2] The file ``system.txt`` contains a system of equations. 
+     The coefficients of the LHS of the equations makes up the matrix A,
+     and the results on the right make up the column vector B. Write an
+     octave script to: solve the equation Ax=B, print the determinant of
+     A, print the inverse of A, and print the eigenvectors and eigenvalues
+     of A.  Call this ``linear.m``.
+
+     http://homepages.math.uic.edu/~hanson/Octave/OctaveLinearAlgebra.html
+
+8. Haskell, a functional programming language.
+     [+4] Write a Haskell program to list all permutations of a string.  For
+     example if the string is "ABCD", it should give "ABDC", "ACBD", "ACDB",
+     etc.    Call this ``permuations.hs``.  I would be very impressed if anyone
+     could do this; Haskell is a very hard language for young people to learn.
+
+
+These languages have different focii.  Scientists and students of linear
+algebra benefit from knowing MATLAB/Octave, social scientists from R, and
+graduate students and artists from LaTeX and PHP.  The scripting languages are
+good for anyone to know.  Haskell is for computer science geeks. 
