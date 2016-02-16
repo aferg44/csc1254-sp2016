@@ -4,7 +4,7 @@
 #include <climits>
 #include "Person.h"
 
-#define N 1
+#define N 23
 
 int main() {
 
