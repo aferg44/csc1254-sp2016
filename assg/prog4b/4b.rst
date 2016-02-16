@@ -5,7 +5,7 @@ these languages.
 
 
 1. BaSH, the shell scripting language.
-     [+1] Write a shell script which takes an argument X, displays X.cpp on the
+     [+2] Write a shell script which takes an argument X, displays X.cpp on the
      screen (line-numbered; use nl) until the user hits Enter, then compiles
      X.cpp into an executable X, and runs it. Call it ``run.sh``. If you place
      it into a directory ~/bin, you can use it from anywhere. 
