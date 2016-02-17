@@ -72,6 +72,7 @@ int main(int argc, char **argv) {
       }
     }
     students[i].print();
+    std::cout << " is " << mindistance << " away from " << std::endl;
     students[mindex].print();
     std::cout << std::endl;
   }
