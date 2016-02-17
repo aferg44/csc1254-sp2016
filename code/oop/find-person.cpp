@@ -45,7 +45,13 @@ int main(int argc, char **argv) {
       }
     }
     students[targetindex].describe();
+    students[targetindex].summarize();
+    students[targetindex].MBTI();
+    std::cout << std::endl;
     students[mindex].describe();
+    students[mindex].summarize();
+    students[mindex].MBTI();
+    std::cout << std::endl;
   }
 
   // If the target is not found, target will still be -1 and argc will be 2.
@@ -65,8 +71,8 @@ int main(int argc, char **argv) {
         }
       }
     }
-    students[i].describe();
-    students[mindex].describe();
+    students[i].print();
+    students[mindex].print();
     std::cout << std::endl;
   }
 
