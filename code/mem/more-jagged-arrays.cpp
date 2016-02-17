@@ -18,14 +18,14 @@ int main() {
       a[i][j] = num++;
 
 
-  // Initialize jagged array
+  // Print jagged array
   for (int i=0; i<5; i++) {
     for (int j=0; j<sizes[i]; j++)
       std::cout << a[i][j] << "\t";
     std::cout << std::endl;
   }
 
-  // Allocate memory within rows
+  // Deallocate memory
   for (int i=0; i<5; i++)
     free(a[i]);
   free(a);
