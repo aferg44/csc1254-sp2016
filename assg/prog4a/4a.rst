@@ -1,0 +1,58 @@
+Let your creativity run wild! Select up to 64 points worth of problems.
+
+1. Write a Makefile and shell script to compile and run codes.
+     [8] Write a Makefile to compile *all* the codes you write for this
+     assignment [4], and a shell script called ``run-all.sh`` which will neatly
+     run all of the standalone executables that were compiled [4].
+
+2. Document files and functions.
+     [8] Document all files and functions with a doxygen-compliant standard
+     (e.g. Javadoc) [4] then generate the documentation with doxygen [4].  You
+     can now check the generated HTML it with a graphical browser (firefox),
+     but you need X11 forwarding enabled to run it.
+
+3. Create a pointer puzzle.
+     [8] Create a puzzle using pointers, similar to the ones I have given you
+     to solve in class. The puzzle should be in a ``main`` function. It should
+     be structurally different from any you have seen [4], and be <=5 lines
+     long [2].  The solution should spell an English word or phrase [2]. Call
+     it ``pointer-puzzle.cpp``. 
+
+4. Create a utility library.
+     [8] Create a library of functions that you commonly use for my assignments
+     so that you don't have to re-write them.  Create header file ``util.h``
+     [2], library source ``util.cpp`` [2], and a demonstration code
+     ``util-demo.cpp`` [2].  It should contain at least 8 functions [2].  You
+     can use functions from solutions that I have provided.  You are free to
+     re-use your own ``util.h`` in any future assignment.
+
+5. Create your own class.
+     [16] Create class headers and implementation file (of anything) with two
+     private data fields [2], a constructor to set the two fields [2], two
+     accessors [2], two mutators [2].  Also demonstrate instantiation of an
+     array of 10 such objects [8]. So for the example of a Rectangle, one would
+     create ``Rectangle.h``, ``Rectangle.cpp``, and ``rectangle-demo.cpp``. 
+     Your class, however, should be unique [-16].
+
+6. Create two classes with a has-a relationship.
+     [16] Create class headers [4] and implementation files [4] for classes A
+     and B, where A has a B.  Of course, A and B should be unique (A may be a
+     Classroom and B may be a Student array) [4]. Create also a demonstration
+     code ``has-a-demo.cpp`` which shows that A has a B [4]. The class
+     relationship should be unique [-16].
+
+7. Create two classes with an is-a relationship.
+     [16] Create a class headers and implementation files for classes A [4] and
+     B [4], where B is a A.  Of course, A and B should be unique (A may be a
+     Classroom and B may be a Student array) [4].  Create a demonstration code
+     ``is-a-demo.cpp`` which shows that B inherited properties of A (for
+     example, instantiate B and set one of the fields of A) [4]. The
+     relationship should be unique [-16].
+
+8. Transform a previously-written library into a class.
+     [16] If you wrote a library for dice, cards, or imaginary numbers in
+     prog3b, you may transform the library into a class.  It should have the
+     same associated data (rank and suit for a Card, for example) and its
+     methods should be the functions of that library [4].  Create the header
+     [4], implementation file [4], and demo code [4]. Name it after the library
+     (e.g. ``Card.h``, ``Card.cpp``, ``card-demo.cpp``).
