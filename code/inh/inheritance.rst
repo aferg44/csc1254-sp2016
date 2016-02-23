@@ -98,11 +98,11 @@ is an example of use of this:
   .. code:: cpp
      int main() {
        Fox KevinBroadbridge;
-       KevinBroadbridge.cunning      = 4;
+       KevinBroadbridge.cunning      = 5;
        KevinBroadbridge.friendliness = 10;
 
        Owl JosephTriche;
-       JosephTriche.wisdom        = 6;
+       JosephTriche.wisdom        = 5;
        JosephTriche.friendliness  = 10;
      }
 
