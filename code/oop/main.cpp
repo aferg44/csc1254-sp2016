@@ -1,17 +1,21 @@
 #include <iostream>
-#include "Person.h"
 #include "Circle.h"
 
 int main() {
 
-  int personality[10] = {5, 1, 1, 4, 1, 3, 4, 5, 2, 5};
-  Person dc("Castleberry", personality);
-  dc.describe();
+  // Uses default constructor
+  Circle circ1;
+  circ1.x = 2;
+  circ1.y = 3;
+  circ1.r = 5;
+  circ1.describe();
 
-  Circle circ;
-  circ.x = 2;
-  circ.y = 3;
-  circ.r = 5;
-  circ.describe();
+  // Uses the defined constructor
+  Circle circ2(1, 1, 2);
+  circ2.describe();
+
+  // Uses copy constructor
+  Circle circ3 = circ2;  
+  circ3.describe();
 
 }

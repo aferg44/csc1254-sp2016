@@ -4,9 +4,11 @@
 class Circle {
 
   public:
-    // Coordinates and radius
     float x, y, r;
 
+    Circle() {}; // Default constructor 
+    Circle(int x, int y, int r);
+    Circle(const Circle& c);
     float area();
     float circumference();
     void  describe();
