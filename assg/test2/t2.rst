@@ -1,0 +1,118 @@
+Test 2 Practice
+===============
+
+General Tips
+------------
+  
+  * I will expect you to know the solutions to all of the homework problems,
+  and to have read and understood all of the codes in the repository, and to
+  have practiced to such an extent that you could write any function or code
+  that is less than 10 lines in size on paper, in colored pencil, without
+  making a single error.
+
+  * I will ask you the most difficult questions that I can get away with.  I
+  will deliberately ask questions that the majority of the class failed at some
+  point in the past.  I will aim for the highest level of complexity you can
+  handle.  If you don't understand it, I will ask a question about it.
+
+  * I will try to trick you. I may ask the same question twice.  I may ask
+  about things you should know, but that you thought I wouldn't ask about, like
+  regular expressions.  Your best defense is to study everything.
+
+  * I will have no mercy. If you make a single error, I will give you half 
+  credit.  Have no illusions about this.  Even if everyone makes a zero, I will
+  not curve the test.  When I grade your test, I will stop my heart with ice so
+  cold that not even cat pictures can defrost it.
+
+  * Study in advance. Cramming for a test like mine the night before, or even
+  two nights before, is an exercise in futility.  Plan your sleep the night
+  before the exam. 
+
+
+Efficiency
+----------
+
+  * I will assume you are familiar with big-O notation and have knowledge of
+  the basic techniques to make certain codes more efficient. There will be
+  questions purely about efficiency, but I may work in an efficiency
+  requirement into a problem.  It may even be the most difficult component of
+  the problem.  For example, I may ask to write a generic function that finds
+  if n is prime in O(sqrt(n)) time.
+
+
+Libraries and Modular Design
+----------------------------
+
+  * You will need to know about this anyway when you create classes. 
+
+
+Regular Expressions
+-------------------
+
+  * Be able to apply regular expression substitutions to inputs and create
+  regular expression substitutions to achieve a certain goal.  My best advice
+  for studying is to use regular expressions in your coding practice from now
+  on. The reason I taught regex is to make life easier; you are among the few
+  students I taught this to, so take pride in it!
+
+
+Dynamic Memory
+--------------
+
+  * You'll need to have intimite knowledge of pointers and dereferencing
+  syntax. I may ask you to solve pointer puzzles, and if I do, they will 
+  comprehensively test your knowledge of pointer behavior.
+
+  * Be able to write code to dynamically allocate memory. Definitely be able
+  to allocate memory with a call to ``malloc``, and be able to free memory with
+  the ``free`` function.  Also be familiar with the ``realloc`` function and
+  how to re-allocate memory.
+
+  * Know how to create a jagged array of some type (for example, integers)
+  given what the sizes of arrays within the jagged array should be.  Similarly,
+  know how to allocate memory for a matrix using ``malloc``.
+
+
+Classes
+-------
+
+  * Know vocabulary. It is very possible that a crossword puzzle may appear 
+  on the test. Make sure you know the terms backwards and forwards; be able 
+  to identify their definitions as well as define them.
+
+  * You should be able to create a class with fields, accessors, mutators,
+  a default constructor, and a constructor to set all the initial data for your
+  class.  Be able to do both forms: one with a class declaration (header) and
+  definition (an implementation file); and another with a definition of the
+  class with methods implemented in-line.
+
+  * You'll need to be able to instantiate an object, instantiate an object
+  via a pointer, instantiate an array of objects, and create an array of
+  object pointers and instantiate each one of them.  Be familiar with the
+  use of the ``new`` keyword.
+
+Inheritance
+-----------
+
+  * Know the two types of inheritance. Be able to define and distinguish 
+  them.  Be able to provide examples of class declarations that exemplify the
+  inheritance relationships. 
+
+  * Know the public and private access specifiers, their meanings, the purpose
+  of private, and how to access and set private variables. You should know what
+  variables are accessible to a subclass in an is-a relationship.
+
+Polymorphism
+------------
+
+  * Know ad-hoc polymorphism, that is function overloading, and
+  operator overloading.  The easiest operator overloading question I would ask
+  is for structs; but know how to do it for classes, too. 
+
+  * Know about parametric polymorphism, that is how to create a generic 
+  function. Know how to make a function generic for multiple types. Also know
+  how to make a generic class (see ``poly/combined-polymorphism.cpp``.
+
+  * At worst, I will ask you to overload the stream insertion operator to
+  output the fields of a generic subclass. You have to know what that means and
+  how to code it. See ``poly/combined-polymorphism.cpp``. 
