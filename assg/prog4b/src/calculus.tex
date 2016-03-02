@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage{geometry}
+\usepackage{amsmath}
+\geometry{ rmargin=1in
+          ,lmargin=1in
+          ,bmargin=1in
+          ,tmargin=1in }
+
+\setlength{\parskip}{12pt}
+\setlength{\parindent}{0pt}
+\setlength{\itemindent}{32pt}
+
+\begin{document}
+
+The partial integration theorem states that:
+
+\[
+  \int u(x) v'(x)\ dx = u(x) v(x) - \int v(x) u'(x)\ dx.
+\]
+
+Suppose that $f(x) = x\ cos(x)$.  Then we may choose:
+
+\begin{center}
+\vbox{
+\begin{itemize}
+  \item  $u=x$
+  \item  $dv=cos(x)$ 
+  \item  $du=1$ 
+  \item  $v=sin(x)$
+\end{itemize}
+}
+\end{center}
+
+Following the formula, 
+
+\[
+  \int x\ cos(x)\ dx = x\ sin(x) - \int sin(x)\ dx,
+\]
+
+which reduces to
+
+\[
+  \int x\ cos(x)\ dx = x\ sin(x) - cos(x) + C. 
+\]
+
+\end{document}
