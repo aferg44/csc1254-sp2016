@@ -1,0 +1,100 @@
+Extra Credit Homework 5
+=======================
+
+You can earn +8 maximum.  You can do more than +8; I will take the best
+combination of problems whose max values add to +8.  I have given you a wide
+variety this time in case you don't want to make the foray into the dark side.
+
+This following is for educational use.  Know the laws; read the Louisiana
+Revised Statutes, Title 14 for sections on cybercrimes.  I don't condone
+law-breaking or getting caught for law-breaking.  Resist the temptation to
+brag; the only attention you'll get is the kind you don't want.
+
+Oh, and remember, you learned it from me. ;)
+
+
+Fox Problems
+------------
+
+  1. Port scanning.
+       [+1] Read the manual page for ``nmap`` and run it on ``mail.lsu.edu`` to
+       scan ports 1-1024. Place a dump of the output in ``portscan.txt``.  Note
+       that you can actually connect to the open ports using a utility called
+       netcat, or ``nc``.  In the case of port 25, you can communicate via a
+       plain-text protocol.
+
+  2. Simple password cracking.
+       [+1] John the Ripper is a utility for cracking passwords whose hashes
+       are stored in ``/etc/shadow``. You can't normally access
+       ``/etc/shadow``, but I have placed a weak password in a file
+       ``src/shadow`` under an account with username ``idiot``.  Run ``john``
+       on the file to reveal ``idiot``'s password, and send it to me in a file
+       called ``password.txt``.
+
+  3. SMS spoofing.
+       [+1] Use the textbelt.com service to send a text message to my cell
+       phone (2253370226) from the command line.  You can use the command
+       ``curl``; follow the syntax on the site.  Let the message contain your
+       name so I know it's from you.  You should get a success message if it
+       succeeded.  **Do not** send more than two successful messages per day;
+       there is a global limit for the server.
+
+  4. Executable hacking. 
+       [+2] Run the executable ``bin/protected`` and observe that it requires a
+       password.  Using ``gdb`` and ``hexedit``, find and overwrite the
+       function call responsible for checking the password with no-op
+       instructions (``0x90``).  Call the resulting executable ``cracked``. 
+
+  5. Content-harvesting robots.
+       [+4] Read the manual page for ``wget`` and use it to download images of
+       cats from ``http://google.com.com/search?q=cats``.  First wget the page,
+       then use regex on the HTML to isolate URLs for the images into a file.
+       Then use wget with the ``-i`` option to download the images.  Since
+       ``wget`` is a known robot, it is normally forbidden access, so you will
+       have to spoof the user-agent (e.g. ``-U "Mozilla/Firefox"``) to bypass
+       Google's anti-robot security.
+
+       Assemble the commands into a script called ``download-cats.sh``. It
+       should download the first 10 images of cats into a folder called
+       ``cat-pictures``.
+
+
+
+
+
+Owl Problems
+------------
+
+  6. Write a resume.
+       [+2] See ``src/resume.tex`` for my resume.  Modify it to make a resume
+       for yourself, and strip it down to one page. Call it ``resume.tex``. 
+
+  7. Intelligent note-taking.
+       [+2] The ReStructured Test language is the one in which all my notes are
+       written. You can convert a ``.rst`` document to LaTeX source with the
+       command ``rst2latex``, then compile it with ``pdflatex`` to produce a
+       beautiful PDF document with minimal effort.
+
+       Transcribe a page of your notes from some other class. In your notes,
+       make use of **bold**, *italics*, ``teletype``, itemized lists, and
+       create at least one table; then convert it to a LaTeX document and
+       compile it into PDF.  Call this ``notes.rst``.
+
+  8. Better presentation slides.
+       [+2] The ``beamer`` class in LaTeX can be used to create very nice
+       slides.  Using ``src/slides.tex`` as a basis, create a set of at least
+       16 slides with 4 sections, each with 4 subsections, in the Copenhagen
+       style as in the example.  
+
+       You can transcribe your notes; or if you have a presentation for a
+       class, take this opportunity to do it in LaTeX.
+
+  9. HTML and CSS (creating a web page).
+       [+2] Use ``wget`` or a browser to examine the source code at
+       ``www.cct.lsu.edu/~dcastl2``.  Note that you can access other sources,
+       such as the CSS code, or other HTML codes, by ``wget``'ing or, in a
+       browser, clicking on the links (see the "View Source" option in most
+       browsers).
+
+       Design a single-page web page (called ``page.html``) with information
+       about yourself. Create a two-column design using ``div`` elements.
