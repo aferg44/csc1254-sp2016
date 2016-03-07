@@ -1,0 +1,208 @@
+\documentclass[9pt]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage{color}
+
+\leftmargin=0.25in
+\oddsidemargin=0.25in
+\textwidth=6.0in
+\topmargin=-0.25in
+\textheight=9.35in
+
+\raggedright
+\pagenumbering{arabic}
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BEGIN RESUME DEFINITIONS
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Change margin
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item[]}{\end{list}
+}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Line 
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\lineover}{
+	\begin{changemargin}{-0.05in}{-0.05in}
+		\vspace*{-8pt}
+		\hrulefill \\
+		\vspace*{-2pt}
+	\end{changemargin}
+}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Header
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\header}[1]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\large \scshape{#1}\\
+  	\lineover
+	\end{changemargin}
+}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Contact information
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\contact}[4]{
+	\begin{changemargin}{-0.2in}{-0.2in}
+		\begin{center}
+			{#1}\\ \smallskip
+			{#2}\\ \smallskip
+			{#3}\\ \smallskip
+			{#4}\smallskip
+		\end{center}
+	\end{changemargin}
+}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Body of section
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{body} {
+	\vspace*{-16pt}
+	\begin{changemargin}{-0.25in}{-0.5in}
+  }	
+	{\end{changemargin}
+}	
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% School
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\school}[4]{ \textbf{#1} \hfill \emph{#2\\}
+	#3\\ 
+	#4\\
+}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section header
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\head}[3]{%
+  \begin{tikzpicture}[remember picture,overlay]
+    \node [rectangle, fill=black, anchor=north, minimum width=\paperwidth, minimum height=3cm] (box) at (current page.north){};
+    \node [anchor=center] (name) at (box) {%
+      \fontsize{40pt}{72pt}\color{white}%
+      {\huge #1} {\huge #2}
+    };
+    \node [anchor=north] at (name.south) {%
+      \fontsize{14pt}{24pt}\color{white}%
+      #3%
+    };
+  \end{tikzpicture}
+  \vspace{1.0cm}
+  \vspace{-2\parskip}
+}
+
+
+% END RESUME DEFINITIONS
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\thispagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Name
+\head{Dennis}{Castleberry}{Research and Teaching Assistant}
+\contact{2019 Louisiana Emerging Technology Center}{110 Union Square, Baton Rouge LA 70802}{dcastl2@tigers.lsu.edu}{(255) 337-0226}
+
+
+\vspace{16pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Objective
+\header{Objective}
+\vspace{16pt}
+\begin{body}
+  To obtain a position wherein knowledge of statistics and machine learning
+  may be utilized toward the advance of computer science, psychological science, 
+  or computer science education
+\end{body}
+
+
+\vspace{24pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Education
+\header{Education}
+\vspace{16pt}
+\begin{body}
+	\textbf{Ph.D., Computer Science}{} \hfill \emph{In Progress}{} \\
+	\emph{Louisiana State University}, Baton Rouge, LA{}           \\
+	\emph{Concentration in Machine Learning \& Artificial Intelligence}  \\
+  \medskip
+	\textbf{B.S., Psychology}{} \hfill \emph{May 2008}{}  \\
+	\emph{Louisiana State University}, Baton Rouge, LA{} \\
+	Minor: Mathematics                                   \\
+  \medskip
+	\textbf{B.A., Philosophy}{} \hfill \emph{May 2007}{}  \\
+ \emph{Louisiana State University}, Baton Rouge, LA{} \\
+	Minor: Physics                                       \\
+\end{body}
+
+
+\vspace{24pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Experience
+\header{Career History}
+\vspace{16pt}
+\begin{body}
+	\textbf{Teaching Assistant}, \emph{Louisiana State University} \hfill \emph{09/2011 - Present}\\
+	\vspace*{-4pt}
+	\begin{itemize} \itemsep -0pt  
+	  \item Taught CSC 1253 and CSC 1254 (Intro to Programming with C/C++) as instructor of record
+		\item Developed automated intelligent tutoring system (ITS) and autograder for programming courses
+	\end{itemize}
+        \smallskip
+	\textbf{Research Assistant}, \emph{Center for Computation \& Tech} \hfill \emph{09/2011 - Present}\\
+	\vspace*{-4pt}
+	\begin{itemize} \itemsep -0pt  
+		\item Developed executable paper frameworks to facilitate publication of computational scientific results
+	\end{itemize}
+        \smallskip
+	\textbf {IT Analyst}, \emph{Center for Computation \& Tech} \hfill \emph{09/2008 - 02/2011}\\
+	\vspace*{-4pt}
+	\begin{itemize} \itemsep -0pt
+		\item Performed maintenance and repair on Linux systems
+		\item Administered web server, developed web pages
+	\end{itemize}
+\end{body}
+
+
+
+\vspace{24pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Skills
+\header{Skills}
+\vspace{16pt}
+\begin{body}
+     \begin{itemize}
+	\item \emph{\textbf{Programming:}}{}   C/C++, Java, Haskell, MATLAB, R, Shell (bash), \LaTeX, PHP, JavaScript/jQuery, HTML, 
+	                                       CSS, MySQL.
+%        \medskip
+%	\item \emph{\textbf{Mathematics:}}{}   (Multidimensional) calculus, linear algebra, statistics (see below), machine learning 
+%	  (inc. neural networks, support vector machines, genetic algorithms, decision trees), algorithmics.
+        \medskip
+	\item \emph{\textbf{Mathematics \& Methodology:}}{} Descriptive statistics, comparison of means tests, multivariate regression, 
+	analysis of variance, factor analysis; experimental and survey design; item-response-theoretic metrics.
+%        \medskip
+%	\item \emph{\textbf{Communication:}}{} Ability to communicate clearly, concisely, and rigorously orally and in writing; to
+%	  deliver in-depth lectures on a known topic, and present statistical findings; proficiency in written English.
+     \end{itemize}
+\end{body}
+\smallskip
+
+\end{document}

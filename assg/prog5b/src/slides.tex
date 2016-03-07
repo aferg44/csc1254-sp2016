@@ -1,0 +1,105 @@
+\documentclass{beamer}
+
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bibentry}
+\usepackage{cite}
+\usepackage{xcolor}
+\usepackage{epstopdf}
+\usepackage{framed}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{tabularx}
+\usepackage{xcolor}
+
+\setbeamercolor{structure}{fg={blue!40!black},bg=darkgray}
+\usetheme{Copenhagen}
+
+\parindent=0pt
+\parskip=12pt
+
+\hypersetup{
+    colorlinks,
+    linkcolor={yellow!50!black},
+    citecolor={yellow!50!black},
+    urlcolor={yellow!80!black}
+}
+
+
+\begin{document}
+
+ \begin{frame}
+ \title{An Example of How to Make Better Presentation Slides}
+ \author{Dennis G. Castleberry II}
+ \date{\today}
+ \maketitle
+ \end{frame}
+
+ \begin{frame}[allowframebreaks]
+   \tableofcontents
+ \end{frame}
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \section{Section A}
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ \begin{frame}
+   \begin{itemize}
+     \item Here is slide 1, in Section A
+     \item Here is a bullet point
+     \begin{itemize}
+       \item Here is a sub bullet
+       \item You can nest itemized or enumerated lists up to 4 times 
+             by default
+     \end{itemize}
+   \end{itemize}
+ \end{frame}
+
+ \begin{frame}
+   \begin{itemize}
+     \item Here is a slide 2; notice the Section number at the top
+     \item The section links are clickable so that you can move around
+           in the PDF document 
+   \end{itemize}
+ \end{frame}
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \section{Section B}
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+ \subsection{Subsection B.1}
+
+ \begin{frame}
+   \begin{itemize}
+     \item Here is slide 3, in Section B, Subsection B.1
+     \begin{enumerate}
+       \item This is an enumerated sublist
+       \item I like to have abbreviations for many of the commands, such
+             as starting or ending lists, or creating an item
+     \end{enumerate}
+     \item Here is a bullet point on the same top-most level
+   \end{itemize}
+ \end{frame}
+
+ \subsection{Subsection B.2}
+
+ \begin{frame}
+   \begin{itemize}
+     \item Here is a slide 4, in Section B, Subsection B.2
+     \item There are a few advantages for using LaTeX for something like this
+     \begin{enumerate}
+       \item The source file is in plain-text, and small in size
+       \item Plain-text source can be used with version control for
+             collaboration on slides
+       \item You can use regular expressions to manipulate the source,
+             for example to change all enumerated lists into itemized
+             lists
+       \item It compiles into a PDF, which is cross-platform and is viewed
+             the same way on every machine with a PDF reader
+       \item No more dragging images into pixel-perfect position
+     \end{enumerate}
+   \end{itemize}
+ \end{frame}
+
+\end{document}
