@@ -1,0 +1,51 @@
+Unlike usual, this week we'll all do a project.  You may choose a partner for
+this project.  As long as you write your partner's name down in a file called
+``partner.txt``, I will not hold you accountable for similarities in your
+codes.  If you choose to do the project alone, I may award a small amount of
+extra credit for your efforts. 
+
+For this assignment, you will implement header files and functions for an
+program called ``warp``.  The program animates a ball moving around in a grid;
+when it hits a warp point (denoted by a yellow or blue circle), it warps to the
+corresponding portal.  The ball moves by traversing pointers to adjacent cells,
+much like linked list traversal.  To enable it to warp from one location on the
+grid to another, we re-associate the pointers for two cells on the grid to
+point to each other.
+
+Your task is to modify the incomplete source in the ``src/`` directory to get
+the code to compile and run, without segmentation faults, and make it behave
+like the executable ``bin/warp``.  To begin, have a look at the executable
+``bin/warp``. Completing the source boils down to two things:
+
+  * Fill out ``Tile.h``, ``Dir.h``, and ``Coords.h`` based on the functions
+  which are already implemented in the corresponding source files.  If you know
+  regular expressions (and especially sed), you can do this part quite easily.
+  After you fill out the headers, the source files should compile. This is
+  really easy.
+
+  * Implement the incomplete functions in ``Board.cpp``. There are five such
+  functions. This is harder. 
+
+There are some restrictions. You may not modify ``main.cpp``, add any other
+files, or modify any function already implemented, or the function signatures
+[-64].  You are graded as follows:
+
+  *  [8] ``Tile.h``
+
+  *  [8] ``Dir.h``
+
+  *  [8] ``Coords.h``
+
+  *  [8] ``Board::allocate``
+
+  *  [8] ``Board::boundaries``
+  
+  *  [8] ``Board::associate``
+
+  *  [8] ``Board::advance``
+
+  *  [8] ``Board::bind``
+
+We will do an in-class activity on Thursday (02/10) to illustrate how the
+ball moves about, how portals are created, and how memory can be allocated
+for the board.
