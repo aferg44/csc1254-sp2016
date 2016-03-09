@@ -17,14 +17,14 @@ the code to compile and run, without segmentation faults, and make it behave
 like the executable ``bin/warp``.  To begin, have a look at the executable
 ``bin/warp``. Completing the source boils down to two things:
 
-  * Fill out ``Tile.h``, ``Dir.h``, and ``Coords.h`` based on the functions
-  which are already implemented in the corresponding source files.  If you know
-  regular expressions (and especially sed), you can do this part quite easily.
-  After you fill out the headers, the source files should compile. This is
-  really easy.
+ * Fill out ``Tile.h``, ``Dir.h``, and ``Coords.h`` based on the functions which
+   are already implemented in the corresponding source files.  If you know 
+   regular expressions (and especially sed), you can do this part quite easily.
+   After you fill out the headers, the source files should compile. This is
+   really easy.
 
-  * Implement the incomplete functions in ``Board.cpp``. There are five such
-  functions. This is harder. 
+ * Implement the incomplete functions in ``Board.cpp``. There are five such 
+   functions. This is harder. 
 
 There are some restrictions. You may not modify ``main.cpp``, add any other
 files, or modify any function already implemented, or the function signatures
