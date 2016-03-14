@@ -10,11 +10,11 @@ will take the best combination of problems whose maximum values add to +8.
 
  2. Create a multi-purpose universal hacking tool.
       [+8] A Linux live distribution is an OS that can boot from a USB stick.
-      Among other things, it functions as a penetration testing utility (also
-      known as hacking tool), since it can potentially be used to do anything
-      you did in ``prog5b`` on any machine of your choice, and more; it can
-      also gain root access to any filesystems and other devices on whatever
-      machine boots it.  I will teach its use to anyone who can make one.
+      Among other things, it functions as a hacking tool, since it can
+      potentially be used to do anything you did in ``prog5b`` on any machine
+      of your choice, and more; it can also gain root access to any filesystems
+      and other devices on whatever machine boots it.  I will teach its use to
+      anyone who can make one.
  
       Create a USB stick with a copy of any of the following:
       
