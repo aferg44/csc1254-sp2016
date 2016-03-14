@@ -8,7 +8,7 @@ will take the best combination of problems whose maximum values add to +8.
       do by the due date of prog5b, then you may do them for this assignment.
 
 
- 2. Fashion a hacking tool.
+ 2. Create a multi-purpose universal hacking tool.
       [+8] A Linux live distribution is an OS that can boot from a USB stick.
       Among other things, it functions as a multi-purpose hacking tool, since
       it can potentially be used to do anything you did in ``prog5b`` on any
