@@ -2,7 +2,11 @@ Unlike usual, this week we'll all do a project.  You may choose a partner for
 this project.  As long as you write your partner's name down in a file called
 ``partner.txt``, I will not hold you accountable for similarities in your
 codes.  If you choose to do the project alone, I may award a small amount of
-extra credit for your efforts. 
+extra credit for your efforts.  If you partner with another student who is five
+or more grade categories apart from you on the +/- scale, I will give you both
+participation credit on the good-faith assumption that one of you will be
+guiding the other.  If at any time there are any issues with your partnership,
+you may detail them in ``partner.txt``.
 
 For this assignment, you will implement header files and functions for an
 program called ``warp``.  The program animates a ball moving around in a grid;
@@ -17,14 +21,14 @@ the code to compile and run, without segmentation faults, and make it behave
 like the executable ``bin/warp``.  To begin, have a look at the executable
 ``bin/warp``. Completing the source boils down to two things:
 
-  * Fill out ``Tile.h``, ``Dir.h``, and ``Coords.h`` based on the functions
-  which are already implemented in the corresponding source files.  If you know
-  regular expressions (and especially sed), you can do this part quite easily.
-  After you fill out the headers, the source files should compile. This is
-  really easy.
+ * Fill out ``Tile.h``, ``Dir.h``, and ``Coords.h`` based on the functions which
+   are already implemented in the corresponding source files.  If you know 
+   regular expressions (and especially sed), you can do this part quite easily.
+   After you fill out the headers, the source files should compile. This is
+   really quite easy.
 
-  * Implement the incomplete functions in ``Board.cpp``. There are five such
-  functions. This is harder. 
+ * Implement the incomplete functions in ``Board.cpp``. There are five such 
+   functions. This is harder. 
 
 There are some restrictions. You may not modify ``main.cpp``, add any other
 files, or modify any function already implemented, or the function signatures
@@ -46,6 +50,6 @@ files, or modify any function already implemented, or the function signatures
 
   *  [8] ``Board::bind``
 
-We will do an in-class activity on Thursday (02/10) to illustrate how the
-ball moves about, how portals are created, and how memory can be allocated
-for the board.
+We will do an in-class activity on Thursday (02/10) to illustrate how the ball
+moves about, how portals are created, and how memory can be allocated for the
+board.

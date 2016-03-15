@@ -1,0 +1,48 @@
+This assignment is about creating tools that improve your position as a
+programmer and user of technology.  Select up to +8. You may do more than +8; I
+will take the best combination of problems whose maximum values add to +8.
+
+
+ 1. Previous problems.
+      If there were any problems detailed in ``5b.rst`` that you didn't already
+      do by the due date of prog5b, then you may do them for this assignment.
+
+
+ 2. Create a multi-purpose universal hacking tool.
+      [+8] A Linux live distribution is an OS that can boot from a USB stick.
+      Among other things, it functions as a hacking tool, since it can
+      potentially be used to do anything you did in ``prog5b`` on any machine
+      of your choice, and more; it can also gain root access to any filesystems
+      and other devices on whatever machine boots it.  I will teach its use to
+      anyone who can make one.
+ 
+      Create a USB stick with a copy of any of the following:
+      
+        * Knoppix, the full-featured live distro
+        * Puppy, the lightweight live distro
+        * Kali, the penetration testing distro
+        * Tails, the amnesiac distro 
+        * SystemRescueCD, the recovery distro
+        
+      and show me by booting a machine with it; either the classroom computer,
+      your laptop, or mine.  I will be around during the weekdays of spring
+      break if you wish to demo it then.  If you make one, you will be in
+      possession of a very powerful tool.
+
+
+ 3. Assemble a programmer's portfolio.
+      [+8] Especially if you intend to continue in computer science, it would
+      be helpful for you to gain experience using version control, and to have
+      a collection of code you are familiar with.  First, learn about Git and
+      what it is used for.  Then create a GitHub (or other type of version
+      control account) under your PAWS ID (or another if it is taken).  
+ 
+      Make two repositories; one should contain at least eight of your best C++
+      codes, and another should contain four codes in a second language of your
+      choice [+4].  If you do not have such codes, write some; create sample
+      codes that demonstrate your knowledge of a second language.  All of your
+      codes should be well-commented and styled [+2].  Include a Makefile or
+      run.sh script (whichever is more appropriate) for both repositories [+2].
+      In your submission, send me the links to the repositories in a file
+      called ``repos.txt``.
+ 
