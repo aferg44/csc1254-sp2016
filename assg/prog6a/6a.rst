@@ -61,7 +61,7 @@ stack such that the elements are reversed.  You can left-rotate a queue called
       O(1) additional space.  You may do the reversal in O(n^2) time, however.
 
 11. Queue right-rotation.
-      [+8] Write a function ``void rRotate(Queue *q)`` to left-shift a queue by
+      [+8] Write a function ``void rRotate(Queue *q)`` to right-shift a queue by
       one element (move the tail to the head) in O(1) additional space and in
       O(n) time.
 
