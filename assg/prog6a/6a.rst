@@ -10,54 +10,62 @@ honor the function signatures to receive credit.  This means that to achieve
 the end-goal of the function, you will have to use only member functions of the
 class, since you will not be able to manipulate ``next`` pointers.  
 
-For example, you can reverse a stack without destroying it by creating a new
-empty stack, then cleverly combining peek, push, and pop methods to copy the
-reverse-ordered elements into the new stack, then re-load the original stack
-(such an approach would use three stacks).  You can left-rotate a queue called
+For example, you can reverse a stack by creating two new empty stacks, then
+using pop and push methods to copy the stack twice, then re-load the original
+stack such that the elements are reversed.  You can left-rotate a queue called
 ``q`` with its member functions simply by using ``q.enqueue(q.dequeue())``.
 
 1. List reversal.
      [+8] Write a function ``Node *Node::reverse()`` to reverse a linked list
-     and return the new head of the list.
+     and return the new head of the list in O(1) additional space and O(n)
+     time.
 
 2. List right-rotation.
      [+8] Write a function ``Node *Node::rRotate()`` to right-shift a linked
-     list by one element and return the new head of the list.
+     list by one element and return the new head of the list in O(1) additional
+     space and O(n) time.
 
 3. List left-rotation.
      [+8] Write a function ``Node *Node::lRotate()`` to left-shift a linked
-     list by one element and return the new head of the list.
+     list by one element and return the new head of the list in O(1) additional
+     space and O(n) time.
 
 4. List copy.
      [+8] Write a function ``Node *copy(Node *head)`` to copy a linked list and
-     return the pointer to the head of the copy.
+     return the pointer to the head of the copy. You may use only two
+     additional variables.
 
 5. List cycle detection.
      [+8] Write a function ``bool Node::hasCycle()`` to determine if the linked
      list has a cycle.  Use only O(1) additional space. 
 
 6. Stack reversal.
-     [+8] Write a function ``void reverse(Stack *s)`` to reverse a stack.
+     [+8] Write a function ``void reverse(Stack *s)`` to reverse a stack in
+     O(1) additional space and O(n) time.
 
 7. Stack up-rotation.
      [+8] Write a function ``void upRotate(Stack *s)`` to move the top of the
-     stack to the bottom.
+     stack to the bottom in O(1) additional space and O(n) time.
 
 8. Stack down-rotation.
      [+8] Write a function ``void upRotate(Stack *s)`` to move the bottom of
-     the stack to the top.
+     the stack to the top in O(1) additional space and O(n) time.
 
 9. Stack copy.
      [+8] Write a function ``Stack *copy(Stack *s)`` to copy a stack and return
-     a pointer to the copy of the stack.  It must not destroy the original.
+     a pointer to the copy of the stack in O(n) time.  It must not destroy the
+     original; and you may use only two additional variables.
 
 10. Queue reversal.
-      [+8] Write a function ``void reverse(Queue *q)`` to reverse a queue.
+      [+8] Write a function ``void reverse(Queue *q)`` to reverse a queue in
+      O(1) additional space.  You may do the reversal in O(n^2) time, however.
 
 11. Queue right-rotation.
       [+8] Write a function ``void rRotate(Queue *q)`` to left-shift a queue by
-      one element (move the tail to the head).
+      one element (move the tail to the head) in O(1) additional space and in
+      O(n) time.
 
 12. Queue copy.
       [+8] Write a function ``Queue *copy(Queue *q)`` to copy a queue and
-      return a pointer to the copy. It must not destroy the original.
+      return a pointer to the copy in O(1) additional space and O(n) time. 
+      It must not destroy the original.
