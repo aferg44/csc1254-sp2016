@@ -1,0 +1,63 @@
+This is Test 3 practice.  I will grade up to 64 points worth of problems.  You
+may do more than 64 points worth, and I will take the best interpretation of
+your work.  For simplicity, place all of your functions in ``main.cpp``; in the
+case of the methods in ``Node``, append them to the ``Node.h`` header.
+
+Note that some of these functions are methods (member functions), but most are
+simply functions that accept objects.  For example, ``Node *Node::reverse()``
+is a function in ``Node``, but ``Node *copy(Node *head)`` is not.  You must
+honor the function signatures to receive credit.  This means that to achieve
+the end-goal of the function, you will have to use only member functions of the
+class, since you will not be able to manipulate ``next`` pointers.  
+
+For example, you can reverse a stack without destroying it by creating a new
+empty stack, then cleverly combining peek, push, and pop methods to copy the
+reverse-ordered elements into the new stack, then re-load the original stack
+(such an approach would use three stacks).  You can left-rotate a queue called
+``q`` with its member functions simply by using ``q.enqueue(q.dequeue())``.
+
+1. List reversal.
+     [+8] Write a function ``Node *Node::reverse()`` to reverse a linked list
+     and return the new head of the list.
+
+2. List right-rotation.
+     [+8] Write a function ``Node *Node::rRotate()`` to right-shift a linked
+     list by one element and return the new head of the list.
+
+3. List left-rotation.
+     [+8] Write a function ``Node *Node::lRotate()`` to left-shift a linked
+     list by one element and return the new head of the list.
+
+4. List copy.
+     [+8] Write a function ``Node *copy(Node *head)`` to copy a linked list and
+     return the pointer to the head of the copy.
+
+5. List cycle detection.
+     [+8] Write a function ``bool Node::hasCycle()`` to determine if the linked
+     list has a cycle.  Use only O(1) additional space. 
+
+6. Stack reversal.
+     [+8] Write a function ``void reverse(Stack *s)`` to reverse a stack.
+
+7. Stack up-rotation.
+     [+8] Write a function ``void upRotate(Stack *s)`` to move the top of the
+     stack to the bottom.
+
+8. Stack down-rotation.
+     [+8] Write a function ``void upRotate(Stack *s)`` to move the bottom of
+     the stack to the top.
+
+9. Stack copy.
+     [+8] Write a function ``Stack *copy(Stack *s)`` to copy a stack and return
+     a pointer to the copy of the stack.  It must not destroy the original.
+
+10. Queue reversal.
+      [+8] Write a function ``void reverse(Queue *q)`` to reverse a queue.
+
+11. Queue right-rotation.
+      [+8] Write a function ``void rRotate(Queue *q)`` to left-shift a queue by
+      one element (move the tail to the head).
+
+12. Queue copy.
+      [+8] Write a function ``Queue *copy(Queue *q)`` to copy a queue and
+      return a pointer to the copy. It must not destroy the original.
